@@ -1,0 +1,185 @@
+{
+    "title": "impostor pumpkin muffins",
+    "ingredients": [
+        {
+            "header": "muffin batter",
+            "list": [
+                {
+                    "name": "1 1/2 cup all-purpose flour",
+                    "notes": []
+                },
+                {
+                    "name": "3/4 cup granulated sugar",
+                    "notes": []
+                },
+                {
+                    "name": "1 teaspoon baking powder",
+                    "notes": []
+                },
+                {
+                    "name": "1 teaspoon baking soda",
+                    "notes": []
+                },
+                {
+                    "name": "1/4 teaspoon salt",
+                    "notes": []
+                },
+                {
+                    "name": "1 teaspoon pumpkin spice",
+                    "notes": []
+                },
+                {
+                    "name": "1 1/2 cup pumpkin purée",
+                    "notes": []
+                },
+                {
+                    "name": "1/4 cup butter (melted and cooled)",
+                    "notes": []
+                },
+                {
+                    "name": "~2 teaspoon vanilla extract",
+                    "notes": []
+                },
+                {
+                    "name": "1 egg (lightly beaten)",
+                    "notes": []
+                }
+            ]
+        },
+        {
+            "header": "cream cheese filling",
+            "list": [
+                {
+                    "name": "1/2 cup cream cheese (softened)",
+                    "notes": []
+                },
+                {
+                    "name": "~1 teaspoon vanilla extract",
+                    "notes": []
+                },
+                {
+                    "name": "1 teaspoon all-purpose flour",
+                    "notes": []
+                },
+                {
+                    "name": "8 teaspoon granulated sugar",
+                    "notes": []
+                },
+                {
+                    "name": "1 teaspoon milk",
+                    "notes": []
+                }
+            ]
+        }
+    ],
+    "equipment": [
+        {
+            "name": "large bowl",
+            "notes": []
+        },
+        {
+            "name": "medium bowl",
+            "notes": []
+        },
+        {
+            "name": "hand mixer",
+            "notes": []
+        },
+        {
+            "name": "piping bag with a tip",
+            "notes": []
+        },
+        {
+            "name": "muffin tin",
+            "notes": []
+        },
+        {
+            "name": "oven at 350°f",
+            "notes": []
+        },
+        {
+            "name": "wire rack",
+            "notes": []
+        },
+        {
+            "name": "cupcake wrappers",
+            "notes": []
+        }
+    ],
+    "instructions": [
+        {
+            "header": "muffin batter",
+            "list": [
+                {
+                    "base": "mix 1 1/2 cup pumpkin purée, 1/4 cup melted and cooled butter, ~1 1/2 teaspoon vanilla extract, and 1 lightly beaten large egg into a medium bowl",
+                    "notes": []
+                },
+                {
+                    "base": "mix 1 1/2 cup all-purpose flour, 3/4 cup granulated sugar, 1 teaspoon baking powder, 1 teaspoon baking soda, 1/4 teaspoon salt, and 1 teaspoon pumpkin spice into a large bowl until combined",
+                    "notes": []
+                },
+                {
+                    "base": "make a crater in the middle of the large bowl and mix in with the contents of the medium bowl until the dry ingredients are not visible",
+                    "notes": []
+                }
+            ]
+        },
+        {
+            "header": "filling",
+            "list": [
+                {
+                    "base": "mix 1/2 cup softened cream cheese, ~3/4 teaspoon vanilla extract, 1 teaspoon all-purpose flour, 2 tablespoon 2 teaspoon granulated sugar, and 1 teaspoon milk using a hand mixer on medium speed into a medium bowl until smooth",
+                    "notes": []
+                },
+                {
+                    "base": "put the mixture into a piping bag with a tip",
+                    "notes": []
+                }
+            ]
+        },
+        {
+            "header": "assembling",
+            "list": [
+                {
+                    "base": "preheat the oven to 350°f",
+                    "notes": []
+                },
+                {
+                    "base": "evenly transfer and distribute the muffin batter mixture to a muffin tin",
+                    "notes": []
+                },
+                {
+                    "base": "fill the insides of each muffin with the filling by gently squeezing for ~1 second",
+                    "notes": []
+                },
+                {
+                    "base": "evenly top each muffin with the leftover filling",
+                    "notes": []
+                },
+                {
+                    "base": "bake for ~18 minutes or until a toothpick stabbed into the middle comes out mostly clean",
+                    "notes": []
+                },
+                {
+                    "base": "let muffins cool in the tin for 10+ minutes",
+                    "notes": []
+                },
+                {
+                    "base": "transfer to wire rack to cool completely",
+                    "notes": []
+                },
+                {
+                    "base": "fit each muffin with a cupcake wrapper",
+                    "notes": []
+                }
+            ]
+        }
+    ],
+    "pictures": [
+        {
+            "src": "../images/bakyuri/impostor-pumpkin-muffins/01.jpg",
+            "alt": "📮🎃🧁"
+        }
+    ],
+    "flavortext": "insert funny description here"
+}

@@ -1,0 +1,70 @@
+*,
+.tfont,
+.tfont *,
+footer * {
+    font-family: var(--font-rocknroll_one), sans-serif;
+}
+
+.hfont,
+.hfont *,
+nav *,
+.hbmenu * {
+    font-family: var(--font-mochiy_pop_one), sans-serif;
+}
+
+html {
+    font-style: normal;
+    font-size: 16px;
+    color: var(--black);
+    line-height: 1.6;
+}
+
+a {
+    color: var(--strongblue);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a.camo {
+    color: inherit;
+}
+
+a:hover:active {
+    color: inherit;
+}
+
+a:hover:active:not(.camo) {
+    color: var(--yellow);
+}
+
+.darkmode {
+    color: var(--white);
+}
+
+::selection {
+    background-color: var(--a_strongpink);
+    color: var(--white);
+}
+
+/* custom headers */
+
+.h1,
+.h2,
+.h3,
+.bold {
+    font-weight: bold;
+}
+
+.h1 {
+    font-size: 2rem;
+}
+
+.h2 {
+    font-size: 1.5rem;
+}
+
+.h3 {
+    font-size: 1.175rem;
+}
+
+/* - - - - - - - - - */

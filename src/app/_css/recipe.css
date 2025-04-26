@@ -1,0 +1,22 @@
+#menulink::before {
+    content: "<";
+    padding-right: 1rem;
+}
+
+.hrheader {
+    justify-content: center;
+}
+
+.stepheader,
+.step {
+    margin-bottom: 0.5rem;
+}
+
+.step {
+    margin-bottom: 0.5rem;
+}
+
+.donestep {
+    opacity: 0.5;
+    text-decoration: line-through;
+}

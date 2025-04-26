@@ -1,0 +1,180 @@
+{
+    "title": "lemon blueberry muffins",
+    "ingredients": [
+        {
+            "header": "streusel",
+            "list": [
+                {
+                    "name": "1/2 cup flour",
+                    "notes": []
+                },
+                {
+                    "name": "1/3 cup sugar",
+                    "notes": []
+                },
+                {
+                    "name": "1 teaspoon lemon zest",
+                    "notes": []
+                },
+                {
+                    "name": "3 tablespoon butter",
+                    "notes": []
+                }
+            ]
+        },
+        {
+            "header": "batter",
+            "list": [
+                {
+                    "name": "2 cup flour",
+                    "notes": []
+                },
+                {
+                    "name": "2 teaspoon baking powder",
+                    "notes": []
+                },
+                {
+                    "name": "1/16 teaspoon salt",
+                    "notes": []
+                },
+                {
+                    "name": "1/2 cup butter (melted)",
+                    "notes": []
+                },
+                {
+                    "name": "1 cup sugar",
+                    "notes": []
+                },
+                {
+                    "name": "1/2 cup plain yogurt",
+                    "notes": []
+                },
+                {
+                    "name": "2 eggs",
+                    "notes": []
+                },
+                {
+                    "name": "1 lemon's worth of lemon zest",
+                    "notes": []
+                },
+                {
+                    "name": "1 teaspoon lemon juice",
+                    "notes": []
+                },
+                {
+                    "name": "~2 teaspoon vanilla extract",
+                    "notes": []
+                },
+                {
+                    "name": "blueberries",
+                    "notes": []
+                }
+            ]
+        }
+    ],
+    "equipment": [
+        {
+            "name": "bowl",
+            "notes": []
+        },
+        {
+            "name": "fork",
+            "notes": []
+        },
+        {
+            "name": "stand mixer with a wire whip attachment",
+            "notes": []
+        },
+        {
+            "name": "rubber spatula",
+            "notes": []
+        },
+        {
+            "name": "cup",
+            "notes": []
+        },
+        {
+            "name": "oven at 370°f",
+            "notes": []
+        },
+        {
+            "name": "muffin tin",
+            "notes": []
+        },
+        {
+            "name": "cupcake wrappers",
+            "notes": []
+        }
+    ],
+    "instructions": [
+        {
+            "header": "streusel",
+            "list": [
+                {
+                    "base": "combine 1/3 cup flour, 1/3 cup sugar, and 1 teaspoon lemon zest into a bowl",
+                    "notes": []
+                },
+                {
+                    "base": "add in 3 tablespoon butter and combine with a fork until it becomes crumbly",
+                    "notes": []
+                },
+                {
+                    "base": "refrigerate",
+                    "notes": []
+                }
+            ]
+        },
+        {
+            "header": "batter",
+            "list": [
+                {
+                    "base": "combine 2 cup all-purpose flour, 2 teaspoon baking powder, and 1/16 teaspoon salt into the stand mixer with a wire whip attachment",
+                    "notes": []
+                },
+                {
+                    "base": "mix in 1/2 cup melted butter and 1 cup sugar until nicely combined",
+                    "notes": []
+                },
+                {
+                    "base": "mix in 1/2 cup plain yogurt and 2 eggs",
+                    "notes": []
+                },
+                {
+                    "base": "make 1/4 cup \"buttermilk\" by mixing 1/4 cup milk with 3/4 teaspoon lemon juice in a cup and letting it sit for ~5 minutes",
+                    "notes": []
+                },
+                {
+                    "base": "mix in ~1 lemon's worth of lemon zest, 1 tsp lemon juice, ~2 teaspoon vanilla extract, and the \"buttermilk\"",
+                    "notes": []
+                },
+                {
+                    "base": "fold in ~1 cup blueberries",
+                    "notes": []
+                },
+                {
+                    "base": "preheat the oven to 370°f",
+                    "notes": []
+                },
+                {
+                    "base": "evenly transfer and distribute the muffin batter mixture to a muffin tin lined with cupcake wrappers",
+                    "notes": ["there should be enough for ~15 muffins"]
+                },
+                {
+                    "base": "top with the streusel",
+                    "notes": []
+                },
+                {
+                    "base": "bake for ~27 minutes or until lightly golden brown",
+                    "notes": []
+                }
+            ]
+        }
+    ],
+    "pictures": [
+        {
+            "src": "../images/bakyuri/lemon-blueberry-muffins/01.jpg",
+            "alt": "🍋🫐🧁"
+        }
+    ],
+    "flavortext": "insert funny description here"
+}

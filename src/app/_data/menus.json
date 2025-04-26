@@ -1,0 +1,93 @@
+{
+    "shef-kyuri": {
+        "title": "shef kyuri",
+        "content": []
+    },
+    "bakyuri": {
+        "title": "bakyuri",
+        "content": [
+            {
+                "header": "cookies",
+                "recipes": [
+                    {
+                        "title": "red velvet cookies",
+                        "id": "red-velvet-cookies",
+                        "attributes": {
+                            "hot": false,
+                            "new": false
+                        },
+                        "description": "but what if it was <i>blue</i>?"
+                    }
+                ]
+            },
+            {
+                "header": "cakes",
+                "recipes": [
+                    {
+                        "title": "banana bread",
+                        "id": "banana-bread",
+                        "attributes": {
+                            "hot": true,
+                            "new": false
+                        },
+                        "description": "it's banana. it's bread. it's banana bread."
+                    },
+                    {
+                        "title": "crêpe cake",
+                        "id": "crepe-cake",
+                        "attributes": {
+                            "hot": false,
+                            "new": false
+                        },
+                        "description": ""
+                    },
+                    {
+                        "title": "sachertorte",
+                        "id": "sachertorte",
+                        "attributes": {
+                            "hot": false,
+                            "new": false
+                        },
+                        "description": "rizz your partner with this ONE simple trick!"
+                    }
+                ]
+            },
+            {
+                "header": "muffins",
+                "recipes": [
+                    {
+                        "title": "dog muffins",
+                        "id": "dog-muffins",
+                        "attributes": {
+                            "hot": false,
+                            "new": false
+                        },
+                        "description": ""
+                    },
+                    {
+                        "title": "impostor pumpkin muffins",
+                        "id": "impostor-pumpkin-muffins",
+                        "attributes": {
+                            "hot": false,
+                            "new": false
+                        },
+                        "description": ""
+                    },
+                    {
+                        "title": "lemon blueberry muffins",
+                        "id": "lemon-blueberry-muffins",
+                        "attributes": {
+                            "hot": false,
+                            "new": true
+                        },
+                        "description": ""
+                    }
+                ]
+            }
+        ]
+    },
+    "kyurista": {
+        "title": "kyurista",
+        "content": []
+    }
+}

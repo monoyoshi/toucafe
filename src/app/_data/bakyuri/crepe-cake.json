@@ -1,0 +1,184 @@
+{
+    "title": "crêpe cake",
+    "ingredients": [
+        {
+            "header": "crêpe",
+            "list": [
+                {
+                    "name": "3/4 cup water (warm)",
+                    "notes": []
+                },
+                {
+                    "name": "1 1/2 cup milk",
+                    "notes": []
+                },
+                {
+                    "name": "6 eggs",
+                    "notes": []
+                },
+                {
+                    "name": "6 tablespoon butter (melted)",
+                    "notes": []
+                },
+                {
+                    "name": "1 1/2 cup all-purpose flour",
+                    "notes": []
+                },
+                {
+                    "name": "3 tablespoon granulated sugar",
+                    "notes": []
+                },
+                {
+                    "name": "1/8 teaspoon salt",
+                    "notes": []
+                }
+            ]
+        },
+        {
+            "header": "frosting",
+            "list": [
+                {
+                    "name": "1 cup butter (softened)",
+                    "notes": []
+                },
+                {
+                    "name": "1 1/2 cup sweetened condensed milk",
+                    "notes": []
+                },
+                {
+                    "name": "1 cup cream cheese (softened)",
+                    "notes": []
+                },
+                {
+                    "name": "2 teaspoon vanilla extract",
+                    "notes": []
+                }
+            ]
+        },
+        {
+            "header": "decoration",
+            "list": [
+                {
+                    "name": "blueberries",
+                    "notes": []
+                },
+                {
+                    "name": "raspberries",
+                    "notes": []
+                },
+                {
+                    "name": "powdered sugar",
+                    "notes": []
+                }
+            ]
+        }
+    ],
+    "equipment": [
+        {
+            "name": "blender",
+            "notes": []
+        },
+        {
+            "name": "non-stick pan",
+            "notes": ["the size determines the overall size of the cake (used: 9 inches)"]
+        },
+        {
+            "name": "stovetop at medium heat",
+            "notes": []
+        },
+        {
+            "name": "stand mixer with a wire whip attachment",
+            "notes": []
+        },
+        {
+            "name": "serving plate",
+            "notes": []
+        }
+    ],
+    "instructions": [
+        {
+            "header": "crêpe",
+            "list": [
+                {
+                    "base": "put 3/4 cup warm water, 1 1/2 cup milk, 6 eggs, 6 tablespoon melted butter, 1 1/2 cup all purpose flour, 3 tablespoon granulated sugar, and 1/8 teaspoon salt into a blender and blend until well-combined",
+                    "notes": []
+                },
+                {
+                    "base": "heat a 9-inch non-stick pan over medium heat",
+                    "notes": []
+                },
+                {
+                    "base": "lightly coat pan with butter",
+                    "notes": []
+                },
+                {
+                    "base": "for each crêpe:",
+                    "notes": [
+                        "add enough batter to lightly coat the pan and spread evenly",
+                        "cook for ~30 seconds on each side"
+                    ]
+                },
+                {
+                    "base": "set aside to cool to room temperature",
+                    "notes": []
+                }
+            ]
+        },
+        {
+            "header": "frosting",
+            "list": [
+                {
+                    "base": "beat 1 cup softened butter and 1 1/2 cup sweetened condensed milk using the stand mixer with a wire whip attachment until it looks whipped and light in color",
+                    "notes": []
+                },
+                {
+                    "base": "beat in 1 cup softened cream cheese in ~1 tablespoon increments for ~3 minutes or until it is no longer lumpy",
+                    "notes": []
+                },
+                {
+                    "base": "beat in 2 tsp vanilla extract until well incorporated and smooth",
+                    "notes": []
+                }
+            ]
+        },
+        {
+            "header": "assembling",
+            "list": [
+                {
+                    "base": "spread ~1 1/2 tablespoon frosting on the base of a serving plate",
+                    "notes": []
+                },
+                {
+                    "base": "place first crêpe on top",
+                    "notes": []
+                },
+                {
+                    "base": "for each crêpe or until the desired height is reached:",
+                    "notes": [
+                        "spread ~3 tablespoon of frosting on top of the previous crêpe",
+                        "place crêpe on top"
+                    ]
+                },
+                {
+                    "base": "spread ~1 1/2 tablespoon frosting on top of the topmost crêpe",
+                    "notes": []
+                },
+                {
+                    "base": "refrigerate cake for ~6 hours or until frosting has solidified",
+                    "notes": []
+                },
+                {
+                    "base": "decorate with blueberries, raspberries, and powdered sugar",
+                    "notes": []
+                }
+            ]
+        }
+    ],
+    "pictures": [
+        {
+            "src": "../images/bakyuri/crepe-cake/02.jpg",
+            "alt": "🫐🥞"
+        }
+    ],
+    "flavortext": "insert funny description here"
+}

@@ -1,0 +1,93 @@
+.menulist {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.menulist>* {
+    margin: 0.5rem;
+}
+
+.menulist>*:first-child {
+    margin-left: 0;
+}
+
+.menulist>*:last-child {
+    margin-right: 0;
+}
+
+.menucontent {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.menucontent > * {
+    width: 35vw;
+    height: fit-content;
+}
+
+.menucontent > *:nth-child(odd) {
+    margin-right: 10vw;
+}
+
+@media only screen and (max-width: 600px) {
+    .menucontent {
+        flex-direction: column;
+    }
+
+    .menucontent > * {
+        width: 100%;
+        margin: 0 0 64px;
+    }
+}
+
+.menuitem {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: transparent;
+    padding: 1rem;
+    border: 3px solid transparent;
+    border-radius: 1rem;
+    user-select: auto;
+}
+
+.menuitem:hover {
+    background: linear-gradient(to right, var(--a_lightpink) 25%, var(--a_lightpink) 75%, transparent 75%) right;
+    background-size: 400%;
+    border-color: var(--a_strongpink);
+    animation: wipe 1000ms forwards;
+}
+
+.menuitem:hover:active {
+    background: var(--a_strongpink);
+    color: var(--white);
+}
+
+.menuitem * {
+    color: var(--black);
+}
+
+.menuitem .miheader {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.175em;
+}
+
+.menuitem .new,
+.menuitem .hot {
+    margin-right: 0.5rem;
+    animation: fade 2700ms linear;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+.menuitem .new::before {
+    content: "new!";
+}
+
+.menuitem .hot::before {
+    content: "hot!";
+}

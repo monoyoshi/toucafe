@@ -1,0 +1,123 @@
+{
+    "title": "banana bread",
+    "ingredients": [
+        {
+            "header": "",
+            "list": [
+                {
+                    "name": "~4 large ripe bananas",
+                    "notes": []
+                },
+                {
+                    "name": "1/3 cup butter (melted)",
+                    "notes": []
+                },
+                {
+                    "name": "1/2 teaspoon baking soda",
+                    "notes": []
+                },
+                {
+                    "name": "1/16 teaspoon salt",
+                    "notes": []
+                },
+                {
+                    "name": "~2/3 cup granulated sugar",
+                    "notes": []
+                },
+                {
+                    "name": "1 large egg (beaten)",
+                    "notes": []
+                },
+                {
+                    "name": "~2 teaspoon vanilla extract",
+                    "notes": []
+                },
+                {
+                    "name": "1 1/2 cup all-purpose flour",
+                    "notes": []
+                },
+                {
+                    "name": "white chocolate chips",
+                    "notes": []
+                }
+            ]
+        }
+    ],
+    "equipment": [
+        {
+            "name": "medium bowl",
+            "notes": []
+        },
+        {
+            "name": "loaf pan",
+            "notes": ["the size determines how long the banana bread will bake for (used: 9x5 inches)"]
+        },
+        {
+            "name": "oven at 350°f",
+            "notes": []
+        }
+    ],
+    "instructions": [
+        {
+            "header": "batter",
+            "list": [
+                {
+                    "base": "mash ~4 large ripe bananas",
+                    "notes": []
+                },
+                {
+                    "base": "mix in 1/3 cup melted butter",
+                    "notes": []
+                },
+                {
+                    "base": "mix in 1/2 teaspoon baking soda and 1/16 teaspoon salt",
+                    "notes": []
+                },
+                {
+                    "base": "mix in ~2/3 cup granulated sugar, the egg, and ~2 teaspoon vanilla extract",
+                    "notes": []
+                },
+                {
+                    "base": "mix in ~1/3 cup white chocolate chips",
+                    "notes": []
+                },
+                {
+                    "base": "mix in 1 1/2 cup all-purpose flour until flour is not visible",
+                    "notes": []
+                }
+            ]
+        },
+        {
+            "header": "baking",
+            "list": [
+                {
+                    "base": "preheat the oven to 350°f",
+                    "notes": []
+                },
+                {
+                    "base": "lightly coat all sides of a loaf pan with butter",
+                    "notes": ["the size of the loaf pan determines how long the banana bread will bake for (used: 9x5 inches)"]
+                },
+                {
+                    "base": "transfer the banana bread mixture to the loaf pan",
+                    "notes": []
+                },
+                {
+                    "base": "spread 1/4 cup white chocolate chips to the top of the banana bread mixture",
+                    "notes": []
+                },
+                {
+                    "base": "bake for ~55 minutes or until a toothpick stabbed into the middle comes out clean",
+                    "notes": []
+                }
+            ]
+        }
+    ],
+    "pictures": [
+        {
+            "src": "../images/bakyuri/banana-bread/03.jpg",
+            "alt": "🍌🍞"
+        }
+    ],
+    "flavortext": "it's banana. it's bread. it's banana bread."
+}

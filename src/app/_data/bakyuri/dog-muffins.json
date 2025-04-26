@@ -1,0 +1,98 @@
+{
+    "title": "dog muffins",
+    "ingredients": [
+        {
+            "header": "",
+            "list": [
+                {
+                    "name": "2 tablespoon coconut oil (melted)",
+                    "notes": []
+                },
+                {
+                    "name": "~2 medium-sized ripe bananas",
+                    "notes": []
+                },
+                {
+                    "name": "1/2 cup pumpkin purée",
+                    "notes": []
+                },
+                {
+                    "name": "1 large egg",
+                    "notes": []
+                },
+                {
+                    "name": "3/4 cup flour",
+                    "notes": []
+                },
+                {
+                    "name": "1/4 cup rolled oats",
+                    "notes": []
+                },
+                {
+                    "name": "1/2 teaspoon baking soda",
+                    "notes": []
+                }
+            ]
+        }
+    ],
+    "equipment": [
+        {
+            "name": "bowl",
+            "notes": []
+        },
+        {
+            "name": "fork",
+            "notes": []
+        },
+        {
+            "name": "oven at 350°f",
+            "notes": []
+        },
+        {
+            "name": "muffin tin",
+            "notes": []
+        }
+    ],
+    "instructions": [
+        {
+            "header": "",
+            "list": [
+                {
+                    "base": "mash ~2 medium-sized ripe bananas into a bowl",
+                    "notes": []
+                },
+                {
+                    "base": "mix in 1/2 cup pumpkin purée, 1 large egg, and 2 tablespoon coconut oil",
+                    "notes": []
+                },
+                {
+                    "base": "mix in 3/4 cup flour, 1/4 cup rolled oats, 1/2 teaspoon baking soda, and 1/4 teaspoon baking powder until flour is not visible",
+                    "notes": []
+                },
+                {
+                    "base": "preheat the oven to 350°f",
+                    "notes": []
+                },
+                {
+                    "base": "lightly coat a muffin tin with coconut oil",
+                    "notes": []
+                },
+                {
+                    "base": "evenly transfer and distribute the muffin batter mixture to a muffin tin",
+                    "notes": ["there should be enough for ~12 muffins"]
+                },
+                {
+                    "base": "bake for ~15 minutes or until a toothpick stabbed into the middle comes out clean",
+                    "notes": []
+                }
+            ]
+        }
+    ],
+    "pictures": [
+        {
+            "src": "../images/bakyuri/dog-muffins/01.jpg",
+            "alt": "🎃🍌🐶🧁"
+        }
+    ],
+    "flavortext": "woof"
+}

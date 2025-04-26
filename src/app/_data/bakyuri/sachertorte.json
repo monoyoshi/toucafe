@@ -1,0 +1,252 @@
+{
+    "title": "sachertorte",
+    "ingredients": [
+        {
+            "header": "cake batter",
+            "list": [
+                {
+                    "name": "1 cup cake flour",
+                    "notes": []
+                },
+                {
+                    "name": "1/2 teaspoon baking powder",
+                    "notes": []
+                },
+                {
+                    "name": "1/4 teaspoon salt",
+                    "notes": []
+                },
+                {
+                    "name": "8 large eggs (separated into egg yolks and egg whites)",
+                    "notes": []
+                },
+                {
+                    "name": "1 cup butter (softened)",
+                    "notes": []
+                },
+                {
+                    "name": "1 cup (total) granulated sugar",
+                    "notes": []
+                },
+                {
+                    "name": "3 teaspoon vanilla extract",
+                    "notes": []
+                },
+                {
+                    "name": "3/4 cup semi-sweet chocolate (melted)",
+                    "notes": []
+                }
+            ]
+        },
+        {
+            "header": "assembly",
+            "list": [
+                {
+                    "name": "2 1/4 cup apricot preserves",
+                    "notes": []
+                }
+            ]
+        },
+        {
+            "header": "glaze",
+            "list": [
+                {
+                    "name": "1/2 cup semi-sweet chocolate (melted)",
+                    "notes": []
+                },
+                {
+                    "name": "1/4 cup butter (melted)",
+                    "notes": []
+                },
+                {
+                    "name": "1 tablespoon corn syrup",
+                    "notes": []
+                }
+            ]
+        },
+        {
+            "header": "other",
+            "list": [
+                {
+                    "name": "blueberries",
+                    "notes": []
+                },
+                {
+                    "name": "strawberries",
+                    "notes": []
+                }
+            ]
+        }
+    ],
+    "equipment": [
+        {
+            "name": "cake pan",
+            "notes": ["the size determines how tall the cake will be (recommended: 9x3 inches)"]
+        },
+        {
+            "name": "parchment paper",
+            "notes": []
+        },
+        {
+            "name": "stand mixer with a wire whip attachment",
+            "notes": []
+        },
+        {
+            "name": "medium bowl",
+            "notes": []
+        },
+        {
+            "name": "hand mixer",
+            "notes": []
+        },
+        {
+            "name": "oven at 350°f",
+            "notes": []
+        },
+        {
+            "name": "wire rack",
+            "notes": []
+        },
+        {
+            "name": "small bowl",
+            "notes": []
+        },
+        {
+            "name": "serving plate",
+            "notes": []
+        }
+    ],
+    "instructions": [
+        {
+            "header": "cake batter preparation",
+            "list": [
+                {
+                    "base": "sift 1 cup cake flour, 1/2 teaspoon baking powder, and 1/4 teaspoon salt into a bowl",
+                    "notes": []
+                },
+                {
+                    "base": "separate 8 large eggs into egg yolks and egg whites into two separate bowls",
+                    "notes": []
+                },
+                {
+                    "base": "whip the egg whites to soft peak using a hand mixer",
+                    "notes": []
+                },
+                {
+                    "base": "mix in 1/2 cup sugar until the egg whites are whipped to full peak",
+                    "notes": []
+                }
+            ]
+        },
+        {
+            "header": "cake batter",
+            "list": [
+                {
+                    "base": "beat together 1 cup softened butter and 1/2 cup sugar in a stand mixer with a flat beater attachment until it's light and aerated",
+                    "notes": []
+                },
+                {
+                    "base": "mix in the egg yolks and ~2 teaspoon vanilla extract until it is all combined",
+                    "notes": []
+                },
+                {
+                    "base": "mix in the cake flour, baking powder, and salt until it is all combined",
+                    "notes": []
+                },
+                {
+                    "base": "mix in 3/4 cup melted semi-sweet chocolate",
+                    "notes": []
+                },
+                {
+                    "base": "fold the egg whites into the stand mixer bowl in thirds and and mix until there are no more streaks of egg white visible",
+                    "notes": []
+                },
+                {
+                    "base": "preheat the oven to 350°f",
+                    "notes": []
+                },
+                {
+                    "base": "pour batter into cake pan and spread it evenly",
+                    "notes": []
+                },
+                {
+                    "base": "bake for ~45 minutes or until a toothpick stabbed in the middle comes out clean",
+                    "notes": []
+                },
+                {
+                    "base": "cool in the cake pan for ~10 minutes",
+                    "notes": []
+                },
+                {
+                    "base": "place cake on a cooling rack and let it cool completely",
+                    "notes": []
+                }
+            ]
+        },
+        {
+            "header": "assembling pt. 1",
+            "list": [
+                {
+                    "base": "trim the top of the cake so it is flat",
+                    "notes": []
+                },
+                {
+                    "base": "split the cake into 2 horizontal layers",
+                    "notes": []
+                },
+                {
+                    "base": "spread 1/2 cup apricot preserves on top of one layer and stack the layers",
+                    "notes": []
+                },
+                {
+                    "base": "warm 1 cup apricot preserves and get rid of the chunky bits",
+                    "notes": []
+                },
+                {
+                    "base": "ice the top and the sides of the cake with the apricot preserves",
+                    "notes": []
+                },
+                {
+                    "base": "air-dry the cake for ~1 hour",
+                    "notes": []
+                }
+            ]
+        },
+        {
+            "header": "assembling pt. 2",
+            "list": [
+                {
+                    "base": "melt 1/2 cup semi-sweet chocolate and 1/4 cup butter",
+                    "notes": []
+                },
+                {
+                    "base": "mix in 1 tablespoon corn syrup",
+                    "notes": []
+                },
+                {
+                    "base": "pour glaze over cake and smooth it out",
+                    "notes": []
+                },
+                {
+                    "base": "put the cake on a serving plate once the glaze sets",
+                    "notes": []
+                },
+                {
+                    "base": "decorate the cake with blueberries and strawberries",
+                    "notes": []
+                },
+                {
+                    "base": "store the cake",
+                    "notes": ["it gets better within 1-2 days as it absorbs the apricot preserves"]
+                }
+            ]
+        }
+    ],
+    "pictures": [
+        {
+            "src": "../images/bakyuri/sachertorte/01.jpg",
+            "alt": "🇦🇹🍫🎂"
+        }
+    ],
+    "flavortext": "Bakers Hate Them! This dragon rizzed their partner using this one SIMPLE* trick! LEARN THE TRUTH NOW<br><br>*not simple."
+}
