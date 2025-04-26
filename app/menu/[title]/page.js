@@ -6,7 +6,7 @@ import { redirect } from "next/navigation";
 
 import Link from "next/link";
 
-import "/src/app/_css/menu.css";
+import "/app/_css/menu.css";
 
 export async function MenuList({ data = {}, current = "" }) {
     const op = [];
@@ -74,7 +74,7 @@ function MenuContent({ title = "", menu = {} }) {
 };
 
 export default async function Menu({ params }) {
-    const file = await promises.readFile(process.cwd() + "/src/app/_data/menus.json", "utf8");
+    const file = await promises.readFile(process.cwd() + "/app/_data/menus.json", "utf8");
     const data = JSON.parse(file);
 
     const { title } = await params;

@@ -5,10 +5,10 @@ import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 
-import "/src/app/_css/colors.css";
+import "/app/_css/colors.css";
 
 import { RocknRoll_One, Mochiy_Pop_One } from "next/font/google";
-import "/src/app/_css/fonts.css";
+import "/app/_css/fonts.css";
 
 const tfont = RocknRoll_One({
     subsets: ["latin", "latin-ext"],
@@ -22,7 +22,7 @@ const hfont = Mochiy_Pop_One({
     variable: "--font-mochiy_pop_one"
 });
 
-import "/src/app/_css/styles.css";
+import "/app/_css/styles.css";
 
 import SiteLogo from "/public/logo.svg";
 import HBOpen from "/public/hamburger/yesburger.svg";

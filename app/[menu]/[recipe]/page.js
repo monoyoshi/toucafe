@@ -5,7 +5,7 @@ import { promises } from "fs";
 
 import Link from "next/link";
 
-import "/src/app/_css/recipe.css";
+import "/app/_css/recipe.css";
 
 function IngredientHeader({ name = "" }) {
     if (name.length > 0) {
@@ -113,7 +113,7 @@ export default async function Recipe({ params }) {
     let data;
 
     try {
-        file = await promises.readFile(process.cwd() + `/src/app/_data/${menu}/${recipe}.json`, "utf8");
+        file = await promises.readFile(process.cwd() + `/app/_data/${menu}/${recipe}.json`, "utf8");
         data = JSON.parse(file);
 
         return (

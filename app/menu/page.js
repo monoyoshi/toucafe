@@ -2,10 +2,10 @@
 
 import { promises } from "fs";
 
-import { MenuList } from "/src/app/menu/[title]/page.js";
+import { MenuList } from "/app/menu/[title]/page.js";
  
 export default async function Menu() {
-    const file = await promises.readFile(process.cwd() + '/src/app/_data/menus.json', 'utf8');
+    const file = await promises.readFile(process.cwd() + '/app/_data/menus.json', 'utf8');
     const data = JSON.parse(file);
 
     return (

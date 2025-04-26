@@ -1,9 +1,9 @@
 import Link from "next/link";
 import Image from "next/image";
 
-import Icon from "/src/app/icon.svg";
+import Icon from "/app/icon.svg";
 
-import { HRBreak } from "/src/app/layout.js";
+import { HRBreak } from "/app/layout.js";
 
 export default function Home() {
     return (
