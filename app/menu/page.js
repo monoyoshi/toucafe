@@ -6,7 +6,7 @@ import path from "path";
 import { MenuList } from "/app/menu/[title]/page.js";
  
 export default async function Menu() {
-    const file = path.join(process.cwd(), `/public/data/menus.json`);
+    const file = path.join(process.cwd(), `/public/_data/menus.json`);
     const data = JSON.parse(fs.readFileSync(file));
 
     return (

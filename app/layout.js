@@ -25,8 +25,8 @@ const hfont = Mochiy_Pop_One({
 import "/app/_css/styles.css";
 
 import SiteLogo from "/public/logo.svg";
-import HBOpen from "/public/hamburger/yesburger.svg";
-import HBClose from "/public/hamburger/noburger.svg";
+import HBOpen from "/public/_hamburger/yesburger.svg";
+import HBClose from "/public/_hamburger/noburger.svg";
 
 export function HRBreak({ paddingtop = 0, paddingbottom = paddingtop }) {
     return (

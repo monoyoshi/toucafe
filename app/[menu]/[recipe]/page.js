@@ -113,7 +113,7 @@ export default async function Recipe({ params }) {
     let data;
 
     try {
-        file = path.join(process.cwd(), `/public/data/${menu}/${recipe}.json`);
+        file = path.join(process.cwd(), `/public/_data/${menu}/${recipe}.json`);
         //file = await promises.readFile(process.cwd() + `/public/data/${menu}/${recipe}.json`, "utf8");
         data = JSON.parse(fs.readFileSync(file));
 

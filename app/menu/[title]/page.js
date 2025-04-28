@@ -75,7 +75,7 @@ function MenuContent({ title = "", menu = {} }) {
 };
 
 export default async function Menu({ params }) {
-    const file = path.join(process.cwd(), `/public/data/menus.json`);
+    const file = path.join(process.cwd(), `/public/_data/menus.json`);
     const data = JSON.parse(fs.readFileSync(file));
 
     const { title } = await params;
