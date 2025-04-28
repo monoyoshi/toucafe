@@ -1,7 +1,7 @@
-
 "use server";
 
-import { promises } from "fs";
+import fs from "fs";
+import path from "path";
 
 import Link from "next/link";
 
@@ -28,8 +28,8 @@ function InstructionNotes({ notes = [] }) {
         return (
             <ul>
                 {
-                    notes.map((note) => (
-                        <li>{note}</li>
+                    notes.map((content, index) => (
+                        <li key={index}>{content}</li>
                     ))
                 }
             </ul>
@@ -45,13 +45,13 @@ function Ingredients({ list = [] }) {
                 <hr className="right" />
             </div>
             {
-                list.map((s) => (
-                    <div style={{marginBottom: "2rem"}}>
-                        <IngredientHeader name={s.header} />
+                list.map((section, index) => (
+                    <div style={{marginBottom: "2rem"}} key={index}>
+                        <IngredientHeader name={section.header} />
                         <ul>
                             {
-                                s.list.map((ingredient) => (
-                                    <li>{ingredient.name}</li>
+                                section.list.map((ingredient, jndex) => (
+                                    <li key={jndex}>{ingredient.name}</li>
                                 ))
                             }
                         </ul>
@@ -71,8 +71,8 @@ function Equipment({ list = [] }) {
             </div>
             <ul style={{marginBottom: "2rem"}}>
                 {
-                    list.map((s) => (
-                        <li>{s.name}</li>
+                    list.map((item, index) => (
+                        <li key={index}>{item.name}</li>
                     ))
                 }
             </ul>
@@ -88,12 +88,12 @@ function Instructions({ list = [] }) {
                 <hr className="right" />
             </div>
             {
-                list.map((s) => (
-                    <div style={{marginBottom:"2rem"}}>
-                        <InstructionHeader name={s.header}/>
+                list.map((section, index) => (
+                    <div style={{marginBottom:"2rem"}} key={index}>
+                        <InstructionHeader name={section.header}/>
                         {
-                            s.list.map((instruction) => (
-                                <div className="step">
+                            section.list.map((instruction, jndex) => (
+                                <div className="step" key={jndex}>
                                     {instruction.base}
                                     <InstructionNotes notes={instruction.notes}/>
                                 </div>
@@ -113,8 +113,9 @@ export default async function Recipe({ params }) {
     let data;
 
     try {
-        file = await promises.readFile(process.cwd() + `/app/_data/${menu}/${recipe}.json`, "utf8");
-        data = JSON.parse(file);
+        file = path.join(process.cwd(), `/public/data/${menu}/${recipe}.json`);
+        //file = await promises.readFile(process.cwd() + `/public/data/${menu}/${recipe}.json`, "utf8");
+        data = JSON.parse(fs.readFileSync(file));
 
         return (
             <>

@@ -90,7 +90,7 @@ export default function RootLayout({ children }) {
 
             <footer className="flexcenter">
                 <p>made with love and pure hyperfixation from <b>kyu(ren)</b></p>
-                <Image src="https://cdn.bladewyrm.dev/images/kyurem/sprite-animated_kyurem.png" width={32} height={32} alt=":)" style={{height: "32px"}} />
+                <Image src="https://cdn.bladewyrm.dev/images/kyurem/sprite-animated_kyurem.png" width={32} height={32} alt=":)" unoptimized style={{height: "32px"}} />
             </footer>
         </body>
         </html>
