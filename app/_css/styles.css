@@ -99,11 +99,11 @@ a.button {
     padding: 0.5rem 1.5rem;
     background-color: var(--white);
     color: var(--black);
+    text-wrap: nowrap;
+    text-decoration: none;
     border: 3px solid var(--black);
     border-radius: 99px;
     box-shadow: 0 5px 0 var(--shadow);
-    text-wrap: nowrap;
-    text-decoration: none;
     user-select: none;
     transition-duration: 300ms;
 }

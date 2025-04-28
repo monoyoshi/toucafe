@@ -28,12 +28,12 @@ export async function MenuList({ data = {}, current = "" }) {
 
 function MenuItem({ parent = "", item = {} }) {
     return (
-        <div className="menuitem">
-            <Link href={`/${parent}/${item.id}`}>
-                 <div className="miheader">{item.attributes.hot ? <div className="hot"></div> : null}{item.attributes.new ? <div className="new"></div> : null}{item.title}</div>
+        <Link href={`/${parent}/${item.id}`}>
+            <div className="menuitem">
+                <div className="miheader">{item.attributes.hot ? <div className="hot"></div> : null}{item.attributes.new ? <div className="new"></div> : null}{item.title}</div>
                 {item.description.length > 0 ? <div dangerouslySetInnerHTML={{ __html: item.description }}></div> : null}
-            </Link>
-        </div>
+            </div>
+        </Link>
     );
 };
 
@@ -75,7 +75,7 @@ function MenuContent({ title = "", menu = {} }) {
 };
 
 export default async function Menu({ params }) {
-    const file = path.join(process.cwd(), `/public/_data/menus.json`);
+    const file = path.join(process.cwd(), `/app/_data/menus.json`);
     const data = JSON.parse(fs.readFileSync(file));
 
     const { title } = await params;

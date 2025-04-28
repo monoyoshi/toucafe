@@ -7,6 +7,8 @@ import Link from "next/link";
 
 import "/app/_css/recipe.css";
 
+import { NotFound } from "/app/not-found.js";
+
 function IngredientHeader({ name = "" }) {
     if (name.length > 0) {
         return (
@@ -93,10 +95,10 @@ function Instructions({ list = [] }) {
                         <InstructionHeader name={section.header}/>
                         {
                             section.list.map((instruction, jndex) => (
-                                <div className="step" key={jndex}>
+                                <button className="step" key={jndex}>
                                     {instruction.base}
                                     <InstructionNotes notes={instruction.notes}/>
-                                </div>
+                                </button>
                             ))
                         }
                     </div>
@@ -113,7 +115,7 @@ export default async function Recipe({ params }) {
     let data;
 
     try {
-        file = path.join(process.cwd(), `/public/_data/${menu}/${recipe}.json`);
+        file = path.join(process.cwd(), `/app/_data/${menu}/${recipe}.json`);
         //file = await promises.readFile(process.cwd() + `/public/data/${menu}/${recipe}.json`, "utf8");
         data = JSON.parse(fs.readFileSync(file));
 
@@ -143,7 +145,7 @@ export default async function Recipe({ params }) {
                     <div className="row center">
                         <div className="column-80">
                             <div className="flexcenter" id="wakelocker">
-                                <label htmlFor="wakelock" style={{marginRight: "1rem"}}>keep the screen on</label>
+                                <label htmlFor="wakelock" style={{marginRight: "1rem"}}>check a box :D</label>
                                 <input id="wlcheckbox" type="checkbox" name="wakelock" />
                             </div>
                         </div>
@@ -174,36 +176,46 @@ export default async function Recipe({ params }) {
             </>
         );
     } catch (e) {
-        return (
-            <>
-                <section style={{padding: "32px 0 0"}}>
-                    <div className="row center">
-                        <div className="column-80">
-                            <Link href={`/menu`} className="hfont camo" id="menulink">return to menu</Link>
+        file = path.join(process.cwd(), `/app/_data/menus.json`);
+        const data = JSON.parse(fs.readFileSync(file));
+        
+        if (data[menu]) {
+            return (
+                <>
+                    <section style={{padding: "32px 0 0"}}>
+                        <div className="row center">
+                            <div className="column-80">
+                                <Link href={`/menu`} className="hfont camo" id="menulink">return to menu</Link>
+                            </div>
                         </div>
-                    </div>
-                </section>
-    
-                <section style={{padding: "32px 0"}}>
-                    <div className="row center">
-                        <div className="column-80 center">
-                        <div className="hrheader">
-                            <hr className="left mobilehide" />
-                            <div className="h1 hfont header">Error 404: Recipe not found</div>
-                            <hr className="right mobilehide" />
+                    </section>
+        
+                    <section style={{padding: "32px 0"}}>
+                        <div className="row center">
+                            <div className="column-80 center">
+                            <div className="hrheader">
+                                <hr className="left mobilehide" />
+                                <div className="h1 hfont header">Error 404: Recipe not found</div>
+                                <hr className="right mobilehide" />
+                            </div>
+                            </div>
                         </div>
+                    </section>
+        
+                    <section style={{padding: "32px 0"}}>
+                        <div className="row center">
+                            <div className="column-80 center">
+                                <p>there's nothing here...</p>
+                            </div>
                         </div>
-                    </div>
-                </section>
-    
-                <section style={{padding: "32px 0"}}>
-                    <div className="row center">
-                        <div className="column-80 center">
-                            <p>there's nothing here...</p>
-                        </div>
-                    </div>
-                </section>
-            </>
-        );
+                    </section>
+                </>
+            );
+        }
+        else {
+            return (
+                <NotFound />
+            );
+        };
     };
 }
