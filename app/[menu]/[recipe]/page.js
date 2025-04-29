@@ -7,7 +7,7 @@ import Link from "next/link";
 
 import "/app/_css/recipe.css";
 
-import { NotFound } from "/app/not-found.js";
+import NotFound from "/app/not-found.js";
 
 function IngredientHeader({ name = "" }) {
     if (name.length > 0) {

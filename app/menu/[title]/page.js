@@ -3,11 +3,14 @@
 import fs from "fs";
 import path from "path";
 
-import { redirect } from "next/navigation";
+import { Suspense } from "react";
 
+import { redirect } from "next/navigation";
 import Link from "next/link";
 
 import "/app/_css/menu.css";
+
+import Loading from "/app/loading.js";
 
 export async function MenuList({ data = {}, current = "" }) {
     const op = [];
@@ -83,7 +86,7 @@ export default async function Menu({ params }) {
     if (!data[title]) redirect("/menu");
 
     return (
-        <>
+        <Suspense fallback={<Loading />}>
             <section className="flexcenter" style={{padding: "64px 0 32px"}}>
                 <div className="row center">
                     <div className="column-50">
@@ -109,6 +112,6 @@ export default async function Menu({ params }) {
                     <MenuContent title={title} menu={data[title]}/>
                 </div>
             </section>
-        </>
+        </Suspense>
     );
 };

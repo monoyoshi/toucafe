@@ -8,7 +8,7 @@ footer * {
 .hfont,
 .hfont *,
 nav *,
-.hbmenu * {
+#hbmenu * {
     font-family: var(--font-mochiy_pop_one), sans-serif;
 }
 
@@ -20,25 +20,23 @@ html {
 }
 
 a {
-    color: var(--strongblue);
-    text-decoration: none;
-    cursor: pointer;
+    color: var(--black);
+    text-decoration: underline dotted;
 }
 
-a.camo {
-    color: inherit;
+a.camo,
+nav *,
+#hbmenu *,
+.menucontent * {
+    text-decoration: none;
 }
 
 a:hover:active {
     color: inherit;
 }
 
-a:hover:active:not(.camo) {
-    color: var(--yellow);
-}
-
-.darkmode {
-    color: var(--white);
+a:hover:active {
+    color: var(--a_strongpink);
 }
 
 ::selection {
@@ -68,3 +66,7 @@ a:hover:active:not(.camo) {
 }
 
 /* - - - - - - - - - */
+
+.italics {
+    font-style: italic;
+}
