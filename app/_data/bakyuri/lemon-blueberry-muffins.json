@@ -1,5 +1,6 @@
 {
     "title": "lemon blueberry muffins",
+    "menu": "bakyuri",
     "ingredients": [
         {
             "header": "streusel",
@@ -17,7 +18,7 @@
                     "notes": []
                 },
                 {
-                    "name": "3 tablespoon butter",
+                    "name": "3 tablespoon butter (semi-melted)",
                     "notes": []
                 }
             ]
@@ -108,6 +109,16 @@
     ],
     "instructions": [
         {
+            "header": "preparation",
+            "list": [
+                {
+                    "base": "set aside ~2 lemons' worth of lemon zest",
+                    "notes": []
+                }
+            ]
+        },
+        
+        {
             "header": "streusel",
             "list": [
                 {
@@ -115,7 +126,7 @@
                     "notes": []
                 },
                 {
-                    "base": "add in 3 tablespoon butter and combine with a fork until it becomes crumbly",
+                    "base": "add in 3 tablespoon semi-melted butter and combine with a fork until it becomes crumbly",
                     "notes": []
                 },
                 {
@@ -140,15 +151,15 @@
                     "notes": []
                 },
                 {
-                    "base": "make 1/4 cup \"buttermilk\" by mixing 1/4 cup milk with 3/4 teaspoon lemon juice in a cup and letting it sit for ~5 minutes",
+                    "base": "make 1/4 cup \"buttermilk\" by mixing 1/4 cup milk with 3/4 teaspoon lemon juice in a cup and letting it sit for 5+ minutes",
                     "notes": []
                 },
                 {
-                    "base": "mix in ~1 lemon's worth of lemon zest, 1 teaspoon lemon juice, ~2 teaspoon vanilla extract, and the \"buttermilk\"",
+                    "base": "mix in the rest of the lemon zest, 1 teaspoon lemon juice, ~2 teaspoon vanilla extract, and the \"buttermilk\"",
                     "notes": []
                 },
                 {
-                    "base": "fold in ~1 cup blueberries",
+                    "base": "gently add ~1 cup blueberries",
                     "notes": []
                 },
                 {
@@ -160,7 +171,7 @@
                     "notes": ["there should be enough for ~15 muffins"]
                 },
                 {
-                    "base": "top with the streusel",
+                    "base": "top with the streusel from the fridge",
                     "notes": []
                 },
                 {
@@ -176,5 +187,5 @@
             "alt": "🍋🫐🧁"
         }
     ],
-    "flavortext": "insert funny description here"
+    "flavortext": "YOU CAN PUT CHEESE ON IT"
 }

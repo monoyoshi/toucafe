@@ -1,5 +1,5 @@
 {
-    "title": "banana bread",
+    "title": "pandesal",
     "menu": "bakyuri",
     "ingredients": [
         {
@@ -117,8 +117,8 @@
     "pictures": [
         {
             "src": "../images/bakyuri/banana-bread/03.jpg",
-            "alt": "🍌🍞"
+            "alt": "🇵🇭🍞"
         }
     ],
-    "flavortext": "it's banana. it's bread. it's banana bread."
+    "flavortext": "BREAD!!!!"
 }

@@ -12,6 +12,24 @@ import "/app/_css/menu.css";
 
 import Loading from "/app/loading.js";
 
+export async function generateMetadata({ params }) {
+    const file = path.join(process.cwd(), `/app/_data/menus.json`);
+    const data = JSON.parse(fs.readFileSync(file));
+
+    const { title } = await params;
+
+    if (data[title]) {
+        return {
+            title: `${title} | menus | tou café | bladewyrm.dev`
+        };
+    }
+    else {
+        return {
+            title: "menus | tou café | bladewyrm.dev"
+        };
+    };
+};
+
 export async function MenuList({ data = {}, current = "" }) {
     const op = [];
     for (const [key, value] of Object.entries(data)) {

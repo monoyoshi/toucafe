@@ -9,6 +9,42 @@ import "/app/_css/recipe.css";
 
 import NotFound from "/app/not-found.js";
 
+function highlightCurrentPage(current, isLinked) {
+    let pageList = [
+        "menu",
+        "about",
+        "shop",
+        "contact"
+    ];
+}
+
+export async function generateMetadata({ params }) {
+    const { menu, recipe } = await params;
+
+    try {
+        const file = path.join(process.cwd(), `/app/_data/${menu}/${recipe}.json`);
+        const data = JSON.parse(fs.readFileSync(file));
+
+        return {
+            title: `${data.title} | ${data.menu} | tou café | bladewyrm.dev`
+        };
+    } catch (e) {
+        const file = path.join(process.cwd(), `/app/_data/menus.json`);
+        const data = JSON.parse(fs.readFileSync(file));
+        
+        if (data[menu]) {
+            return {
+                title: `${data[menu].title} | tou café | bladewyrm.dev`
+            };
+        }
+        else {
+            return {
+                title: "404 | tou café | bladewyrm.dev"
+            };
+        };
+    };
+};
+
 function IngredientHeader({ name = "" }) {
     if (name.length > 0) {
         return (
@@ -111,13 +147,9 @@ function Instructions({ list = [] }) {
 export default async function Recipe({ params }) {
     const { menu, recipe } = await params;
 
-    let file;
-    let data;
-
     try {
-        file = path.join(process.cwd(), `/app/_data/${menu}/${recipe}.json`);
-        //file = await promises.readFile(process.cwd() + `/public/data/${menu}/${recipe}.json`, "utf8");
-        data = JSON.parse(fs.readFileSync(file));
+        const file = path.join(process.cwd(), `/app/_data/${menu}/${recipe}.json`);
+        const data = JSON.parse(fs.readFileSync(file));
 
         return (
             <>
@@ -145,14 +177,14 @@ export default async function Recipe({ params }) {
                     <div className="row center">
                         <div className="column-80">
                             <div className="flexcenter" id="wakelocker">
-                                <label htmlFor="wakelock" style={{marginRight: "1rem"}}>check a box :D</label>
+                                <label htmlFor="wakelock" style={{marginRight: "1rem"}}>check this box (it does nothing for now) :D</label>
                                 <input id="wlcheckbox" type="checkbox" name="wakelock" />
                             </div>
                         </div>
                     </div>
                 </section>
     
-                <section style={{padding: "64px 0"}}>
+                <section style={{padding: "32px 0"}}>
                     <div className="row center horizontal">
                         <div className="column-30">
                             <Ingredients list={data.ingredients} />

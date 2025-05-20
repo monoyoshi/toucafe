@@ -28,16 +28,15 @@ import SiteLogo from "/public/logo.svg";
 import HBOpen from "/public/hamburger/yesburger.svg";
 import HBClose from "/public/hamburger/noburger.svg";
 
-export function HRBreak({ paddingtop = 0, paddingbottom = paddingtop }) {
+export function HRBreak({ width = "64px", paddingtop = 0, paddingbottom = paddingtop }) {
     return (
-        <section className="hrbreak" style={{padding: `${paddingtop} 0 ${paddingbottom}`}}>
-            <hr style={{"width": "64px"}} />
+        <section className="hrbreak" style={{paddingTop: paddingtop, paddingBottom: paddingbottom}}>
+            <hr style={{width: width}} />
         </section>
     );
 };
 
-function NavbarHeader() {
-    const [currentPage, setCurrentPage] = useState(null);
+export function NavbarHeader({ currentPage = null }) {
     const [isOpen, setIsOpen] = useState(false);
 
     function toggleHBM(state = !isOpen) {
@@ -47,23 +46,19 @@ function NavbarHeader() {
         else document.body.style.overflow = "visible";
     };
 
-    function setCP(page = null) {
-        setCurrentPage(page);
-    };
-
     return (
         <header>
             <nav className="flexcenter">
                 <div className="flexcenter" id="navlogo">
-                    <Link href="/" onClick={() => {toggleHBM(false); setCP()}}>
+                    <Link href="/" onClick={() => {toggleHBM(false)}}>
                         <Image src={SiteLogo} alt="home" style={{height: "48px"}} />
                     </Link>
                 </div>
                 <div className="flexcenter">
-                    <Link href="/menu" onClick={() => {setCP("menu")}} className={currentPage == "menu" ? "active" : null}>menu</Link>
+                    <Link href="/menu" className={currentPage == "menu" ? "active" : null}>menu</Link>
                 </div>
                 <div className="flexcenter">
-                    <Link href="/about" onClick={() => {setCP("about")}} className={currentPage == "about" ? "active" : null}>about</Link>
+                    <Link href="/about" className={currentPage == "about" ? "active" : null}>about</Link>
                 </div>
                 <div className="flexcenter">
                     <Link href="/shop" className={currentPage == "shop" ? "active" : null}>shop</Link>
@@ -72,15 +67,15 @@ function NavbarHeader() {
                     <Link href="https://bsky.app/profile/bladewyrm.dev" target="_blank" rel="noopener noreferrer" className={currentPage == "contact" ? "active" : null}>contact</Link>
                 </div>
                 <div className="flexcenter" id="burgerbox">
-                    <button className="flexcenter" onClick={toggleHBM}>
-                        <Image src={isOpen ? HBClose : HBOpen} alt="hbmenu" />
+                    <button className="flexcenter" onClick={() => {toggleHBM()}}>
+                        <Image src={isOpen ? HBClose : HBOpen} alt="hbmenu"/>
                     </button>
                 </div>
             </nav>
             <div className={isOpen ? "active" : null} id="hbmenu">
-                <Link href="/menu" onClick={() => {toggleHBM(false); setCP("menu")}} className={currentPage == "menu" ? "active" : null}>menu</Link>
-                <Link href="/about" onClick={() => {toggleHBM(false); setCP("about")}} className={currentPage == "about" ? "active" : null}>about</Link>
-                <Link href="/shop" onClick={() => {toggleHBM(false); setCP("shop")}} className={currentPage == "shop" ? "active" : null}>shop</Link>
+                <Link href="/menu" onClick={() => {toggleHBM(false)}} className={currentPage == "menu" ? "active" : null}>menu</Link>
+                <Link href="/about" onClick={() => {toggleHBM(false)}} className={currentPage == "about" ? "active" : null}>about</Link>
+                <Link href="/shop" onClick={() => {toggleHBM(false)}} className={currentPage == "shop" ? "active" : null}>shop</Link>
                 <Link href="https://bsky.app/profile/bladewyrm.dev" target="_blank" rel="noopener noreferrer" onClick={() => {toggleHBM(false)}} className={currentPage == "contact" ? "active" : null}>contact</Link>
             </div>
             <div className={isOpen ? "active" : null} id="hbmshadow" />
@@ -88,20 +83,24 @@ function NavbarHeader() {
     );
 };
 
+export function ContentFooter() {
+    return (
+        <>
+            <HRBreak paddingtop="0" paddingbottom="0" />
+
+            <section id="contentfooter">
+                <Link href="https://bladewyrm.dev" target="_blank" rel="noopener noreferrer"><Image src="https://cdn.bladewyrm.dev/images/logo.svg" width={1536} height={640} alt="bladewyrm logo" style={{height: "64px"}} /></Link>
+            </section>
+        </>
+    );
+};
+
 export default function RootLayout({ children }) {
     return (
         <html lang="en" className={`${tfont.variable} ${hfont.variable}`}>
         <body>
-            <NavbarHeader />
-
-            <main>{children}</main>
-
-            <HRBreak paddingtop="0" paddingbottom="0" />
-
-            <section id="mainfooter">
-                <Link href="https://bladewyrm.dev" target="_blank" rel="noopener noreferrer"><Image src="https://cdn.bladewyrm.dev/images/logo.svg" width={1536} height={640} alt="bladewyrm logo" style={{height: "64px"}} /></Link>
-            </section>
-
+            {children}
+            
             <footer>
                 <div className="flexcenter">
                     <p>made with love and pure hyperfixation from <b>kyu(ren)</b></p>
