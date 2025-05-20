@@ -177,7 +177,7 @@ export default async function Recipe({ params }) {
                     <div className="row center">
                         <div className="column-80">
                             <div className="flexcenter" id="wakelocker">
-                                <label htmlFor="wakelock" style={{marginRight: "1rem"}}>check this box (it does nothing for now) :D</label>
+                                <label htmlFor="wakelock" style={{marginRight: "1rem"}}>check this box (it does nothing) :D</label>
                                 <input id="wlcheckbox" type="checkbox" name="wakelock" />
                             </div>
                         </div>
