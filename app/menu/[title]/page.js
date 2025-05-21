@@ -53,6 +53,7 @@ function MenuItem({ parent = "", item = {} }) {
             <div className="menuitem">
                 <div className="miheader">{item.attributes.hot ? <div className="hot"></div> : null}{item.attributes.new ? <div className="new"></div> : null}{item.title}</div>
                 {item.description.length > 0 ? <div dangerouslySetInnerHTML={{ __html: item.description }}></div> : null}
+                <div className="updated">{item.updated}</div>
             </div>
         </Link>
     );

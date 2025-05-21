@@ -1,0 +1,191 @@
+{
+    "title": "pandesal",
+    "menu": "bakyuri",
+    "ingredients": [
+        {
+            "header": "yeast",
+            "list": [
+                {
+                    "name": "2 1/4 teaspoon active dry yeast",
+                    "notes": []
+                },
+                {
+                    "name": "1 1/4 cup whole milk",
+                    "notes": []
+                },
+                {
+                    "name": "2 teaspoon granulated sugar",
+                    "notes": []
+                }
+            ]
+        },
+        {
+            "header": "dough",
+            "list": [
+                {
+                    "name": "3 cup all-purpose flour",
+                    "notes": []
+                },
+                {
+                    "name": "1 1/2 cup bread flour",
+                    "notes": []
+                },
+                {
+                    "name": "1 1/2 teaspoon salt",
+                    "notes": []
+                },
+                {
+                    "name": "1/3 cup granulated sugar",
+                    "notes": []
+                },
+                {
+                    "name": "3 tablespoon butter (softened)",
+                    "notes": []
+                },
+                {
+                    "name": "2 large eggs (lightly whisked)",
+                    "notes": []
+                }
+            ]
+        },
+        {
+            "header": "other",
+            "list": [
+                {
+                    "name": "breadcrumbs",
+                    "notes": []
+                }
+            ]
+        }
+    ],
+    "equipment": [
+        {
+            "name": "medium bowl",
+            "notes": []
+        },
+        {
+            "name": "large bowl",
+            "notes": []
+        },
+        {
+            "name": "stand mixer with a dough hook attachment",
+            "notes": []
+        },
+        {
+            "name": "plastic wrap",
+            "notes": []
+        },
+        {
+            "name": "baking sheet",
+            "notes": []
+        },
+        {
+            "name": "parchment paper",
+            "notes": []
+        },
+        {
+            "name": "oven at 350°f",
+            "notes": []
+        }
+    ],
+    "instructions": [
+        {
+            "header": "yeast mixture",
+            "list": [
+                {
+                    "base": "warm 1 1/4 cup whole milk to ~105°F",
+                    "notes": []
+                },
+                {
+                    "base": "mix in 2 1/4 teaspoon active dry yeast",
+                    "notes": []
+                },
+                {
+                    "base": "mix in 2 teaspoon granulated sugar",
+                    "notes": []
+                },
+                {
+                    "base": "set aside until the mixture is foamy",
+                    "notes": []
+                }
+            ]
+        },
+        {
+            "header": "dry ingredients",
+            "list": [
+                {
+                    "base": "mix 3 cup all-purpose flour, 1 1/2 cup bread flour, and 1 1/2 teaspoon salt into a large bowl",
+                    "notes": []
+                }
+            ]
+        },
+        {
+            "header": "mixing",
+            "list": [
+                {
+                    "base": "add the yeast mixture, 1/3 cup granulated sugar, 3 tablespoon softened butter, and 2 large lightly whisked eggs into the stand mixer with a dough hook attachment",
+                    "notes": []
+                },
+                {
+                    "base": "slowly mix in the dry ingredients while the mixer is running on low speed",
+                    "notes": []
+                },
+                {
+                    "base": "set the mixer to medium speed and wait until the dough becomes a smooth ball",
+                    "notes": []
+                },
+                {
+                    "base": "transfer to a lightly oiled bowl",
+                    "notes": []
+                },
+                {
+                    "base": "cover the bowl with plastic wrap and let the dough rise at room temperature for ~1 hour",
+                    "notes": []
+                }
+            ]
+        },
+        {
+            "header": "baking",
+            "list": [
+                {
+                    "base": "line a baking sheet with parchment paper",
+                    "notes": []
+                },
+                {
+                    "base": "punch the middle of the dough down with your bare fist",
+                    "notes": ["give it your all :)"]
+                },
+                {
+                    "base": "divide and roll dough into ~20 balls",
+                    "notes": []
+                },
+                {
+                    "base": "for each ball:",
+                    "notes": [
+                        "dip the top into breadcrumbs",
+                        "place onto the baking sheet "
+                    ]
+                },
+                {
+                    "base": "cover the baking sheet with plastic wrap and let the rolls rise for ~20 minutes",
+                    "notes": []
+                },
+                {
+                    "base": "preheat the oven to 350°f",
+                    "notes": []
+                },
+                {
+                    "base": "uncover the baking sheet and bake for ~25 minutes or until golden brown",
+                    "notes": []
+                }
+            ]
+        }
+    ],
+    "pictures": [
+        {
+            "src": "../images/bakyuri/banana-bread/03.jpg",
+            "alt": "🇵🇭🍞"
+        }
+    ],
+    "flavortext": "<div class=\"row center\"><div class=\"column-45\" style=\"text-align: left;\"><p>> be me</p><p>> one chance at life</p><p>> make bread (filipino)</p></div></div>"
+}

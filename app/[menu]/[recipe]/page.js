@@ -9,15 +9,6 @@ import "/app/_css/recipe.css";
 
 import NotFound from "/app/not-found.js";
 
-function highlightCurrentPage(current, isLinked) {
-    let pageList = [
-        "menu",
-        "about",
-        "shop",
-        "contact"
-    ];
-}
-
 export async function generateMetadata({ params }) {
     const { menu, recipe } = await params;
 
@@ -200,15 +191,15 @@ export default async function Recipe({ params }) {
                 <section style={{padding: "32px 0"}}>
                     <div className="row center">
                         <div className="column-80 center">
-                            <div id="images">insert image gallery here</div>
-                            <div dangerouslySetInnerHTML={{ __html: data.flavortext }} />
+                            <div id="images">there'd be an image gallery here but I have bigger things to worry about</div>
+                            <div className="br-top" dangerouslySetInnerHTML={{ __html: data.flavortext }} />
                         </div>
                     </div>
                 </section>
             </>
         );
     } catch (e) {
-        file = path.join(process.cwd(), `/app/_data/menus.json`);
+        const file = path.join(process.cwd(), `/app/_data/menus.json`);
         const data = JSON.parse(fs.readFileSync(file));
         
         if (data[menu]) {
@@ -227,7 +218,7 @@ export default async function Recipe({ params }) {
                             <div className="column-80 center">
                             <div className="hrheader">
                                 <hr className="left mobilehide" />
-                                <div className="h1 hfont header">Error 404: Recipe not found</div>
+                                <div className="h1 hfont header">error 404: recipe not found</div>
                                 <hr className="right mobilehide" />
                             </div>
                             </div>

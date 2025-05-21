@@ -25,6 +25,7 @@
 .menucontent > * {
     width: 35vw;
     height: fit-content;
+    margin-bottom: 64px;
 }
 
 .menucontent > *:nth-child(odd) {
@@ -38,7 +39,6 @@
 
     .menucontent > * {
         width: 100%;
-        margin: 0 0 64px;
     }
 }
 
@@ -73,7 +73,7 @@
     display: flex;
     align-items: center;
     font-weight: bold;
-    font-size: 1.175em;
+    font-size: 1.175rem;
 }
 
 .menuitem .new,
@@ -90,4 +90,16 @@
 
 .menuitem .hot::before {
     content: "hot!";
+}
+
+.menuitem .updated {
+    color: var(--lightblack);
+    margin: 0.5rem 0 0 1rem;
+    font-size: 1rem;
+    font-style: italic;
+    font-weight: normal;
+}
+
+.menuitem .updated::before {
+    content: "last updated ";
 }
