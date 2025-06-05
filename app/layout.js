@@ -36,7 +36,7 @@ export function HRBreak({ width = "64px", paddingtop = 0, paddingbottom = paddin
     );
 };
 
-export function NavbarHeader({ currentPage = null }) {
+function NavbarHeader() {
     const [isOpen, setIsOpen] = useState(false);
 
     function toggleHBM(state = !isOpen) {
@@ -55,43 +55,31 @@ export function NavbarHeader({ currentPage = null }) {
                     </Link>
                 </div>
                 <div className="flexcenter">
-                    <Link href="/menu" className={currentPage == "menu" ? "active" : null}>menu</Link>
+                    <Link href="/menu">menu</Link>
                 </div>
                 <div className="flexcenter">
-                    <Link href="/about" className={currentPage == "about" ? "active" : null}>about</Link>
+                    <Link href="/about">about</Link>
                 </div>
                 <div className="flexcenter">
-                    <Link href="/shop" className={currentPage == "shop" ? "active" : null}>shop</Link>
+                    <Link href="/shop">shop</Link>
                 </div>
                 <div className="flexcenter">
-                    <Link href="https://bsky.app/profile/bladewyrm.dev" target="_blank" rel="noopener noreferrer" className={currentPage == "contact" ? "active" : null}>contact</Link>
+                    <Link href="https://bsky.app/profile/bladewyrm.dev" target="_blank" rel="noopener noreferrer">contact</Link>
                 </div>
                 <div className="flexcenter" id="burgerbox">
                     <button className="flexcenter" onClick={() => {toggleHBM()}}>
-                        <Image src={isOpen ? HBClose : HBOpen} alt="hbmenu"/>
+                        <Image src={isOpen ? HBClose : HBOpen} alt="hbmenu" />
                     </button>
                 </div>
             </nav>
             <div className={isOpen ? "active" : null} id="hbmenu">
-                <Link href="/menu" onClick={() => {toggleHBM(false)}} className={currentPage == "menu" ? "active" : null}>menu</Link>
-                <Link href="/about" onClick={() => {toggleHBM(false)}} className={currentPage == "about" ? "active" : null}>about</Link>
-                <Link href="/shop" onClick={() => {toggleHBM(false)}} className={currentPage == "shop" ? "active" : null}>shop</Link>
-                <Link href="https://bsky.app/profile/bladewyrm.dev" target="_blank" rel="noopener noreferrer" onClick={() => {toggleHBM(false)}} className={currentPage == "contact" ? "active" : null}>contact</Link>
+                <Link href="/menu" onClick={() => {toggleHBM(false)}}>menu</Link>
+                <Link href="/about" onClick={() => {toggleHBM(false)}}>about</Link>
+                <Link href="/shop" onClick={() => {toggleHBM(false)}}>shop</Link>
+                <Link href="https://bsky.app/profile/bladewyrm.dev" target="_blank" rel="noopener noreferrer" onClick={() => {toggleHBM(false)}}>contact</Link>
             </div>
             <div className={isOpen ? "active" : null} id="hbmshadow" />
         </header>
-    );
-};
-
-export function ContentFooter() {
-    return (
-        <>
-            <HRBreak paddingtop="0" paddingbottom="0" />
-
-            <section id="contentfooter">
-                <Link href="https://bladewyrm.dev" target="_blank" rel="noopener noreferrer"><Image src="https://cdn.bladewyrm.dev/images/logo.svg" width={1536} height={640} alt="bladewyrm logo" style={{height: "64px"}} /></Link>
-            </section>
-        </>
     );
 };
 
@@ -99,8 +87,18 @@ export default function RootLayout({ children }) {
     return (
         <html lang="en" className={`${tfont.variable} ${hfont.variable}`}>
         <body>
-            {children}
-            
+            <NavbarHeader />
+
+            <article>
+                <main>{children}</main>
+
+                <HRBreak paddingtop="0" paddingbottom="0" />
+
+                <section id="articlefooter">
+                    <Link href="https://bladewyrm.dev" target="_blank" rel="noopener noreferrer"><Image src="https://cdn.bladewyrm.dev/images/logo.svg" width={1536} height={640} alt="bladewyrm logo" style={{height: "64px"}} /></Link>
+                </section>
+            </article>
+
             <footer>
                 <div className="flexcenter">
                     <p>made with love and pure hyperfixation from <b>kyu(ren)</b></p>

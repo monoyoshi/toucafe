@@ -12,12 +12,12 @@
                     {
                         "title": "pandesal",
                         "id": "pandesal",
-                        "updated": "2025/05/18",
+                        "updated": "2025/05/28",
                         "attributes": {
                             "hot": false,
                             "new": true
                         },
-                        "description": ""
+                        "description": "BREAD :D"
                     }
                 ]
             },
@@ -97,10 +97,10 @@
                     {
                         "title": "lemon blueberry muffins",
                         "id": "lemon-blueberry-muffins",
-                        "updated": "2025/05/16",
+                        "updated": "2025/05/25",
                         "attributes": {
-                            "hot": false,
-                            "new": true
+                            "hot": true,
+                            "new": false
                         },
                         "description": ""
                     }

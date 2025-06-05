@@ -312,7 +312,7 @@ main > *:first-child {
     margin-top: 64px;
 }
 
-#content > main {
+article > main {
     min-height: calc(100vh - 240px);
 }
 
@@ -320,7 +320,7 @@ main > *:first-child {
 
 /* main footer */
 
-#contentfooter {
+#articlefooter {
     display: flex;
     justify-content: center;
     align-items: flex-end;
@@ -329,7 +329,7 @@ main > *:first-child {
 }
 
 @media only screen and (max-width: 600px) {
-    #contentfooter {
+    #articlefooter {
         align-items: center;
     }
 }

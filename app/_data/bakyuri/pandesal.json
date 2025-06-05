@@ -23,11 +23,7 @@
             "header": "dough",
             "list": [
                 {
-                    "name": "3 cup all-purpose flour",
-                    "notes": []
-                },
-                {
-                    "name": "1 1/2 cup bread flour",
+                    "name": "4 1/2 cup all-purpose flour",
                     "notes": []
                 },
                 {
@@ -105,7 +101,7 @@
                     "notes": []
                 },
                 {
-                    "base": "set aside until the mixture is foamy",
+                    "base": "set aside for ~20 minutes or until the mixture is foamy",
                     "notes": []
                 }
             ]
@@ -114,7 +110,7 @@
             "header": "dry ingredients",
             "list": [
                 {
-                    "base": "mix 3 cup all-purpose flour, 1 1/2 cup bread flour, and 1 1/2 teaspoon salt into a large bowl",
+                    "base": "mix 4 1/2 cup all-purpose flour and 1 1/2 teaspoon salt into a large bowl",
                     "notes": []
                 }
             ]

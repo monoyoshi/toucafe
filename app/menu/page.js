@@ -3,8 +3,6 @@
 import fs from "fs";
 import path from "path";
 
-import { ContentFooter } from "/app/layout.js";
-
 import { MenuList } from "/app/menu/[title]/page.js";
 
 export async function generateMetadata({ params }) {

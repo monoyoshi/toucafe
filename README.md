@@ -1,2 +1,2 @@
 # toucafe
- tou café but if I locked in (made with next.j) :)
+ tou café but if I locked in (made with next.js) :)
