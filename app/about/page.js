@@ -49,7 +49,7 @@ export default function Home() {
                         <div className="hfont h3 br-bottom">if tou café is so good, where's tou café 2?</div>
                         <p className="br-bottom">This project was made with Next.js by Vercel. Yes, I finally gave in to the Node.js demons whispering in my ear (to be fair, running it on box-san is a <i>much</i> better experience).</p>
                         <p className="br-bottom">Honestly, it's very cool! It does a lot of things that I wish I could've done with vanilla JavaScript/JQuery (I mean, <i>maybe</i> you could, but I wanted a better way to manage my files and Next.js does that and more).</p>
-                        <p>As for <Link href="https://tou-cafe.bladewyrm.dev/" target="_blank" rel="noopener noreferrer">the original site</Link>, it will still stay up as proof that I once cooked.</p>
+                        <p>As for <Link href="https://monoyoshi.github.io/tou-cafe/" target="_blank" rel="noopener noreferrer">the original site</Link>, it will still stay up as proof that I once cooked.</p>
                     </div>
                     <div className="column-5" />
                     <div className="column-20 flexcenter br-top br-bottom">
