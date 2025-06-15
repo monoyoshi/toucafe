@@ -71,7 +71,7 @@
 
 .menuitem .miheader {
     display: flex;
-    align-items: center;
+    align-items: flex-end;
     font-weight: bold;
     font-size: 1.175rem;
 }
@@ -94,12 +94,17 @@
 
 .menuitem .updated {
     color: var(--lightblack);
-    margin: 0.5rem 0 0 1rem;
+    margin: 0 0 1px 1rem;
     font-size: 1rem;
     font-style: italic;
     font-weight: normal;
 }
 
+.menuitem .updated.mobileshow {
+    color: var(--lightblack);
+    margin: 0.5rem 0 0 1rem;
+}
+
 .menuitem .updated::before {
-    content: "last updated ";
+    content: "v";
 }

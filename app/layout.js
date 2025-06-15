@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useRef, useState } from "react";
 
 import Link from "next/link";
 import Image from "next/image";
@@ -34,6 +34,10 @@ export function HRBreak({ width = "64px", paddingtop = 0, paddingbottom = paddin
             <hr style={{width: width}} />
         </section>
     );
+};
+
+function Cursor() {
+    return;
 };
 
 function NavbarHeader() {
@@ -84,9 +88,13 @@ function NavbarHeader() {
 };
 
 export default function RootLayout({ children }) {
+    const cursorArea = useRef();
+
     return (
         <html lang="en" className={`${tfont.variable} ${hfont.variable}`}>
         <body>
+            <Cursor ref={cursorArea} />
+
             <NavbarHeader />
 
             <article>

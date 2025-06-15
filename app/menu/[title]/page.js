@@ -51,9 +51,9 @@ function MenuItem({ parent = "", item = {} }) {
     return (
         <Link href={`/${parent}/${item.id}`}>
             <div className="menuitem">
-                <div className="miheader">{item.attributes.hot ? <div className="hot"></div> : null}{item.attributes.new ? <div className="new"></div> : null}{item.title}</div>
+                <div className="miheader">{item.attributes.hot ? <div className="hot"></div> : null}{item.attributes.new ? <div className="new"></div> : null}{item.title}<span className="updated mobilehide">{item.version}</span></div>
                 {item.description.length > 0 ? <div dangerouslySetInnerHTML={{ __html: item.description }}></div> : null}
-                <div className="updated">{item.updated}</div>
+                <div className="updated mobileshow">{item.version}</div>
             </div>
         </Link>
     );

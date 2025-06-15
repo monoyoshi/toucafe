@@ -3,11 +3,16 @@
 import fs from "fs";
 import path from "path";
 
+import Image from "next/image";
 import Link from "next/link";
 
 import "/app/_css/recipe.css";
 
 import NotFound from "/app/not-found.js";
+
+import { WakeLocker } from "/app/[menu]/[recipe]/layout.js";
+
+import FourZeroFour from "/public/404.svg";
 
 export async function generateMetadata({ params }) {
     const { menu, recipe } = await params;
@@ -167,10 +172,7 @@ export default async function Recipe({ params }) {
                 <section className="mobileshow">
                     <div className="row center">
                         <div className="column-80">
-                            <div className="flexcenter" id="wakelocker">
-                                <label htmlFor="wakelock" style={{marginRight: "1rem"}}>check this box (it does nothing) :D</label>
-                                <input id="wlcheckbox" type="checkbox" name="wakelock" />
-                            </div>
+                            <WakeLocker />
                         </div>
                     </div>
                 </section>
@@ -229,6 +231,7 @@ export default async function Recipe({ params }) {
                         <div className="row center">
                             <div className="column-80 center">
                                 <p>there's nothing here...</p>
+                                <Image src={FourZeroFour} alt="icon" className="br-top" style={{width: "512px"}} />
                             </div>
                         </div>
                     </section>
