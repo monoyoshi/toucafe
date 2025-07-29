@@ -1,0 +1,57 @@
+{
+    "title": "lasagna soup",
+    "category": "soups",
+    "version": "2024.04.01",
+    "attributes": {
+        "hot": false,
+        "new": false
+    },
+    "flavortext": "",
+
+    "ingredients": [
+    ],
+    "equipment": [
+    ],
+    "instructions": [
+        {
+            "header": "",
+            "list": [
+                {
+                    "base": "oil a pot and brown and cook 1.5-2lb ground beef. set aside and drain",
+                    "notes": []
+                },
+                {
+                    "base": "in the same pot, cook a white onion, chopped, for 5 min. add in 5-7 cloves minced garlic and cook for another 2 minutes",
+                    "notes": []
+                },
+                {
+                    "base": "add in 1 container of premade red pasta sauce, 1/2 cup heavy whipping cream, and 2 cups water + 2 cubes of chicken bouillon",
+                    "notes": []
+                },
+                {
+                    "base": "mix in 3 spoonfuls of ricotta cheese",
+                    "notes": []
+                },
+                {
+                    "base": "add back in the ground beef and season with salt, pepper, paprika, italian seasoning, oregano, onion powder, and garlic powder",
+                    "notes": []
+                },
+                {
+                    "base": "break 4-6 sheets of lasagna pasta and soak in the sauce in the pot. put the lid on and let sit for 10+ minutes until the pasta is al dente",
+                    "notes": []
+                },
+                {
+                    "base": "cover the top of the pasta with parmesan and mozarella cheese. cover with lid and let the cheese melt",
+                    "notes": []
+                }
+            ]
+        }
+    ],
+    "pictures": [
+        {
+            "src": "",
+            "alt": "🍝🍲"
+        }
+    ],
+    "content": "\"soup\""
+}

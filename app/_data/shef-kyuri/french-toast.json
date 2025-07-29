@@ -1,0 +1,45 @@
+{
+    "title": "french toast",
+    "category": "breakfast",
+    "version": "2024.10.18",
+    "attributes": {
+        "hot": false,
+        "new": false
+    },
+    "flavortext": "",
+
+    "ingredients": [
+    ],
+    "equipment": [
+    ],
+    "instructions": [
+        {
+            "header": "",
+            "list": [
+                {
+                    "base": "whisk together 1/8 cup flour and 2 eggs",
+                    "notes": []
+                },
+                {
+                    "base": "whisk in 1/3 cup milk, 1/8 cup sugar, 1/8 tsp salt, 1/2 tsp cinnamon, and 1/2 tsp vanilla extract",
+                    "notes": []
+                },
+                {
+                    "base": "dredge bread (4 slices) in the mixture and cook on both sides at medium heat",
+                    "notes": []
+                },
+                {
+                    "base": "serve with syrup and powdered sugar",
+                    "notes": []
+                }
+            ]
+        }
+    ],
+    "pictures": [
+        {
+            "src": "",
+            "alt": ""
+        }
+    ],
+    "content": ""
+}

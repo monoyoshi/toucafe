@@ -1,0 +1,61 @@
+{
+    "title": "mashed pogtatoes",
+    "category": "sides",
+    "version": "2024.10.10",
+    "attributes": {
+        "hot": false,
+        "new": false
+    },
+    "flavortext": "",
+
+    "ingredients": [
+    ],
+    "equipment": [
+    ],
+    "instructions": [
+        {
+            "header": "",
+            "list": [
+                {
+                    "base": "skin and dice 1 lb of potatoes",
+                    "notes": []
+                },
+                {
+                    "base": "mince 2 cloves of garlic",
+                    "notes": []
+                },
+                {
+                    "base": "bring a pot of salted water to a boil",
+                    "notes": []
+                },
+                {
+                    "base": "place the potatoes and garlic in the pot of boiling water and bring the heat down to medium-high",
+                    "notes": []
+                },
+                {
+                    "base": "cook for 15-20 minutes until tender and a fork can easily stab/mash the potatoes",
+                    "notes": []
+                },
+                {
+                    "base": "drain the potatoes and return them to the pot, mashing with a fork",
+                    "notes": []
+                },
+                {
+                    "base": "add 4-6 tbsp of butter, 1/4 cup of milk, salt and pepper to taste, and a handful of your choice of cheese (optional)",
+                    "notes": []
+                },
+                {
+                    "base": "mix until creamy, adjust ingredients as necessary",
+                    "notes": []
+                }
+            ]
+        }
+    ],
+    "pictures": [
+        {
+            "src": "../images/shef-kyuri/mashed-pogtatoes/03.jpg",
+            "alt": ""
+        }
+    ],
+    "content": ""
+}

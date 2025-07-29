@@ -1,6 +1,13 @@
 {
     "title": "impostor pumpkin muffins",
-    "menu": "bakyuri",
+    "category": "muffins",
+    "version": "2024.12.20",
+    "attributes": {
+        "hot": false,
+        "new": false
+    },
+    "flavortext": "these muffins seem kinda familiar...",
+
     "ingredients": [
         {
             "header": "muffin batter",
@@ -178,9 +185,9 @@
     ],
     "pictures": [
         {
-            "src": "../images/bakyuri/impostor-pumpkin-muffins/01.jpg",
+            "src": "",
             "alt": "📮🎃🧁"
         }
     ],
-    "flavortext": "When the muffin is sus! 😳"
+    "content": "When the muffin is sus! 😳"
 }

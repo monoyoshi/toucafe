@@ -1,6 +1,13 @@
 {
     "title": "crêpe cake",
-    "menu": "bakyuri",
+    "category": "cakes",
+    "version": "2024.12.31",
+    "attributes": {
+        "hot": false,
+        "new": false
+    },
+    "flavortext": "",
+
     "ingredients": [
         {
             "header": "crêpe",
@@ -177,9 +184,9 @@
     ],
     "pictures": [
         {
-            "src": "../images/bakyuri/crepe-cake/02.jpg",
+            "src": "",
             "alt": "🫐🥞"
         }
     ],
-    "flavortext": "insert funny description here"
+    "content": ""
 }

@@ -1,0 +1,53 @@
+{
+    "title": "cucumber salad",
+    "category": "salads",
+    "version": "2024.10.16",
+    "attributes": {
+        "hot": false,
+        "new": false
+    },
+    "flavortext": "",
+
+    "ingredients": [
+    ],
+    "equipment": [
+    ],
+    "instructions": [
+        {
+            "header": "",
+            "list": [
+                {
+                    "base": "rinse cucumber(s)",
+                    "notes": []
+                },
+                {
+                    "base": "slice cucumber(s)",
+                    "notes": []
+                },
+                {
+                    "base": "salt cucumber slices and wait 20 minutes",
+                    "notes": []
+                },
+                {
+                    "base": "rinse cucumber slices, pat dry, and put into a bowl",
+                    "notes": []
+                },
+                {
+                    "base": "mix in 1/2 tbsp sesame seeds, 4 tbsp kewpie mayo, 1 tbsp rice vinegar, 1 tbsp (seasoned) soy sauce, and 1/2 tsp sesame oil into another bowl",
+                    "notes": []
+                },
+                {
+                    "base": "pour over cucumber slices",
+                    "notes": []
+                }
+            ]
+        }
+    ],
+    "pictures": [
+        {
+            "src": "",
+            "alt": ""
+        }
+    ],
+    "content": ""
+}

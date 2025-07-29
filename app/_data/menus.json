@@ -1,115 +1,11 @@
 {
     "shef-kyuri": {
-        "title": "shef kyuri",
-        "content": []
+        "title": "shef kyuri"
     },
     "bakyuri": {
-        "title": "bakyuri",
-        "content": [
-            {
-                "header": "bread",
-                "recipes": [
-                    {
-                        "title": "pandesal",
-                        "id": "pandesal",
-                        "version": "2025.05.28",
-                        "attributes": {
-                            "hot": false,
-                            "new": true
-                        },
-                        "description": "BREAD :D"
-                    }
-                ]
-            },
-            {
-                "header": "cookies",
-                "recipes": [
-                    {
-                        "title": "red velvet cookies",
-                        "id": "red-velvet-cookies",
-                        "version": "2025.01.17",
-                        "attributes": {
-                            "hot": false,
-                            "new": false
-                        },
-                        "description": "but what if it was <i>blue</i>?"
-                    }
-                ]
-            },
-            {
-                "header": "cakes",
-                "recipes": [
-                    {
-                        "title": "banana bread",
-                        "id": "banana-bread",
-                        "version": "2025.02.21",
-                        "attributes": {
-                            "hot": true,
-                            "new": false
-                        },
-                        "description": "it's banana. it's bread. it's banana bread."
-                    },
-                    {
-                        "title": "crêpe cake",
-                        "id": "crepe-cake",
-                        "version": "2024.12.31",
-                        "attributes": {
-                            "hot": false,
-                            "new": false
-                        },
-                        "description": ""
-                    },
-                    {
-                        "title": "sachertorte",
-                        "id": "sachertorte",
-                        "version": "2024.07.30",
-                        "attributes": {
-                            "hot": false,
-                            "new": false
-                        },
-                        "description": "rizz your partner with this ONE simple trick!"
-                    }
-                ]
-            },
-            {
-                "header": "muffins",
-                "recipes": [
-                    {
-                        "title": "dog muffins",
-                        "id": "dog-muffins",
-                        "version": "2024.10.18",
-                        "attributes": {
-                            "hot": false,
-                            "new": false
-                        },
-                        "description": ""
-                    },
-                    {
-                        "title": "impostor pumpkin muffins",
-                        "id": "impostor-pumpkin-muffins",
-                        "version": "2024.12.20",
-                        "attributes": {
-                            "hot": false,
-                            "new": false
-                        },
-                        "description": ""
-                    },
-                    {
-                        "title": "lemon blueberry muffins",
-                        "id": "lemon-blueberry-muffins",
-                        "version": "2025.05.25",
-                        "attributes": {
-                            "hot": true,
-                            "new": false
-                        },
-                        "description": ""
-                    }
-                ]
-            }
-        ]
+        "title": "bakyuri"
     },
     "kyurista": {
-        "title": "kyurista",
-        "content": []
+        "title": "kyurista"
     }
 }

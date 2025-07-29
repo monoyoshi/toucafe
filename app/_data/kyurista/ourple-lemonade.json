@@ -1,0 +1,82 @@
+{
+    "title": "ourple lemonade",
+    "category": "tea",
+    "version": "0000.00.00",
+    "attributes": {
+        "hot": false,
+        "new": false
+    },
+    "flavortext": "",
+
+    "ingredients": [
+        {
+            "header": "",
+            "list": [
+                {
+                    "name": "~4 butterfly pea flowers",
+                    "notes": []
+                },
+                {
+                    "name": "water at ~195°f",
+                    "notes": []
+                },
+                {
+                    "name": "ice cubes",
+                    "notes": []
+                },
+                {
+                    "name": "1 lemon",
+                    "notes": []
+                },
+                {
+                    "name": "sugar",
+                    "notes": []
+                }
+            ]
+        }
+    ],
+    "equipment": [
+    ],
+    "instructions": [
+        {
+            "header": "",
+            "list": [
+                {
+                    "base": "heat up water to ~195°f",
+                    "notes": []
+                },
+                {
+                    "base": "cut up lemon and set aside one half and one thin slice",
+                    "notes": []
+                },
+                {
+                    "base": "pour water into cup with 4 butterfly pea flowers, cover, and let brew for ~5 minutes",
+                    "notes": []
+                },
+                {
+                    "base": "pour tea into drinking cup with ice cubes",
+                    "notes": []
+                },
+                {
+                    "base": "squeeze lemon half to taste",
+                    "notes": []
+                },
+                {
+                    "base": "mix in sugar to taste",
+                    "notes": []
+                },
+                {
+                    "base": "garnish with lemon slice",
+                    "notes": []
+                }
+            ]
+        }
+    ],
+    "pictures": [
+        {
+            "src": "",
+            "alt": ""
+        }
+    ],
+    "content": ""
+}

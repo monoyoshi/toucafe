@@ -1,0 +1,45 @@
+{
+    "title": "potato medallions",
+    "category": "breakfast",
+    "version": "0000.00.00",
+    "attributes": {
+        "hot": false,
+        "new": false
+    },
+    "flavortext": "",
+
+    "ingredients": [
+    ],
+    "equipment": [
+    ],
+    "instructions": [
+        {
+            "header": "",
+            "list": [
+                {
+                    "base": "preheat oven to 375",
+                    "notes": []
+                },
+                {
+                    "base": "peel and grate 5-6 yellow potatoes. squeeze the excess liquid out in a cheesecloth",
+                    "notes": []
+                },
+                {
+                    "base": "spray 12 muffin tins and divide the mixture amongst the tins",
+                    "notes": []
+                },
+                {
+                    "base": "cover with foil and bake for 40 min, removing the tin foil halfway",
+                    "notes": []
+                }
+            ]
+        }
+    ],
+    "pictures": [
+        {
+            "src": "",
+            "alt": ""
+        }
+    ],
+    "content": ""
+}

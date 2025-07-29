@@ -1,0 +1,53 @@
+{
+    "title": "salmon pog",
+    "category": "entrée",
+    "version": "2024.10.16",
+    "attributes": {
+        "hot": false,
+        "new": false
+    },
+    "flavortext": "",
+
+    "ingredients": [
+    ],
+    "equipment": [
+    ],
+    "instructions": [
+        {
+            "header": "",
+            "list": [
+                {
+                    "base": "nicely coat skinned salmon with steak seasoning (or salt and pepper)",
+                    "notes": []
+                },
+                {
+                    "base": "oil a pan and pan fry the salmon (break it up into chunks)",
+                    "notes": []
+                },
+                {
+                    "base": "put the salmon into a bowl lined with paper towel to drain of oil",
+                    "notes": []
+                },
+                {
+                    "base": "mix the salmon with kewpie mayonnaise until it's finely tossed",
+                    "notes": []
+                },
+                {
+                    "base": "prepare avocado and cucumber slices, rice (seasoned with furikake if desired), and nori sheets",
+                    "notes": []
+                },
+                {
+                    "base": "assemble wrap or eat the salmon as you like!!",
+                    "notes": []
+                }
+            ]
+        }
+    ],
+    "pictures": [
+        {
+            "src": "",
+            "alt": "🐟💥"
+        }
+    ],
+    "content": ""
+}

@@ -1,0 +1,148 @@
+{
+    "title": "japanese milk bread",
+    "category": "bread",
+    "version": "2025.07.20",
+    "attributes": {
+        "hot": true,
+        "new": false
+    },
+    "flavortext": "",
+
+    "ingredients": [
+        {
+            "header": "starter",
+            "list": [
+                {
+                    "name": "1/3 cup flour",
+                    "notes": []
+                },
+                {
+                    "name": "1/2 cup whole milk",
+                    "notes": []
+                },
+                {
+                    "name": "1/2 cup water",
+                    "notes": []
+                }
+            ]
+        },
+        {
+            "header": "bread",
+            "list": [
+                {
+                    "name": "2 and 1/2 cup flour",
+                    "notes": []
+                },
+                {
+                    "name": "1/4 cup sugar",
+                    "notes": []
+                },
+                {
+                    "name": "~2 teaspoon active dry yeast",
+                    "notes": []
+                },
+                {
+                    "name": "1 teaspoon salt",
+                    "notes": []
+                },
+                {
+                    "name": "1 egg",
+                    "notes": []
+                },
+                {
+                    "name": "1/2 cup whole milk",
+                    "notes": []
+                },
+                {
+                    "name": "4 tablespoon butter (softened)",
+                    "notes": []
+                }
+            ]
+        }
+    ],
+    "equipment": [
+    ],
+    "instructions": [
+        {
+            "header": "starter",
+            "list": [
+                {
+                    "base": "mix 1/3 cup flour, 1/2 cup whole milk, and 1/2 cup water into a pot",
+                    "notes": []
+                },
+                {
+                    "base": "heat up mixture on a stove over low heat for ~5 minutes or until it becomes slightly thick but still pourable",
+                    "notes": []
+                },
+                {
+                    "base": "pour starter into bowl and let it sit until cooled to room temperature",
+                    "notes": []
+                }
+            ]
+        },
+        {
+            "header": "dough",
+            "list": [
+                {
+                    "base": "add 2 1/2 cup flour, 1/4 cup sugar, ~2 teaspoon active dry yeast, and 1 teaspoon salt into the stand mixer with a dough hook attachment",
+                    "notes": []
+                },
+                {
+                    "base": "add 1 egg, 1/2 cup whole milk, and 1/2 starter and let the stand mixer run on low speed (~2) for ~5 minutes",
+                    "notes": []
+                },
+                {
+                    "base": "add in 4 tablespoon softened butter and let the stand mixer run on low speed (~2) for ~11 minutes or until the dough is smooth and sticky",
+                    "notes": []
+                },
+                {
+                    "base": "butter a bowl",
+                    "notes": []
+                },
+                {
+                    "base": "transfer dough to buttered bowl, cover it, and let it sit for ~60 minutes or until it has risen to roughly double its size",
+                    "notes": []
+                },
+                {
+                    "base": "butter another bowl",
+                    "notes": []
+                },
+                {
+                    "base": "punch, split in half, and separate dough into the two bowls, cover them, and let them sit for ~15 minutes",
+                    "notes": []
+                },
+                {
+                    "base": "preheat the oven to 350°f",
+                    "notes": []
+                },
+                {
+                    "base": "lightly coat all sides of a loaf pan with butter",
+                    "notes": ["(used: 9x5 inches)"]
+                },
+                {
+                    "base": "roll each dough ball into a log (see below) and place them side-by-side in the loaf pan",
+                    "notes": ["flatten dough ball into a rectangle", "roll lengthwise into a cylinder"]
+                },
+                {
+                    "base": "bake for ~35-40 minutes",
+                    "notes": []
+                },
+                {
+                    "base": "let bread cool in pan for ~10 minutes",
+                    "notes": []
+                },
+                {
+                    "base": "transfer bread to wire rack to cool for ~1 hour",
+                    "notes": []
+                }
+            ]
+        }
+    ],
+    "pictures": [
+        {
+            "src": "",
+            "alt": "🍞"
+        }
+    ],
+    "content": ""
+}

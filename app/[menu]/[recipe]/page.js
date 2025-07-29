@@ -10,6 +10,7 @@ import "/app/_css/recipe.css";
 
 import NotFound from "/app/not-found.js";
 
+import { HRBreak } from "/app/layout.js";
 import { WakeLocker } from "/app/[menu]/[recipe]/layout.js";
 
 import FourZeroFour from "/public/404.svg";
@@ -30,7 +31,7 @@ export async function generateMetadata({ params }) {
         
         if (data[menu]) {
             return {
-                title: `${data[menu].title} | tou café | bladewyrm.dev`
+                title: `404 | ${data[menu].title} | tou café | bladewyrm.dev`
             };
         }
         else {
@@ -45,6 +46,20 @@ function IngredientHeader({ name = "" }) {
     if (name.length > 0) {
         return (
             <div className="h3 tfont br-bottom">{name}</div>
+        );
+    };
+};
+
+function IngredientNotes({ notes = [] }) {
+    if (notes.length > 0) {
+        return (
+            <ul>
+                {
+                    notes.map((content, index) => (
+                        <li key={index} dangerouslySetInnerHTML={{ __html: content }} />
+                    ))
+                }
+            </ul>
         );
     };
 };
@@ -85,7 +100,10 @@ function Ingredients({ list = [] }) {
                         <ul>
                             {
                                 section.list.map((ingredient, jndex) => (
-                                    <li key={jndex}>{ingredient.name}</li>
+                                    <li key={jndex}>
+                                        {ingredient.name}
+                                        <IngredientNotes notes={ingredient.notes} />
+                                    </li>
                                 ))
                             }
                         </ul>
@@ -193,8 +211,9 @@ export default async function Recipe({ params }) {
                 <section style={{padding: "32px 0"}}>
                     <div className="row center">
                         <div className="column-80 center">
+                            <HRBreak paddingbottom={32} />
                             <div id="images">there'd be an image gallery here but I have bigger things to worry about</div>
-                            <div className="br-top" dangerouslySetInnerHTML={{ __html: data.flavortext }} />
+                            <div className="br-top" dangerouslySetInnerHTML={{ __html: data.content.length > 0 ? data.content : "insert funny description here"}} />
                         </div>
                     </div>
                 </section>

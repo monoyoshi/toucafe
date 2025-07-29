@@ -1,6 +1,13 @@
 {
     "title": "lemon blueberry muffins",
-    "menu": "bakyuri",
+    "category": "muffins",
+    "version": "2025.07.24",
+    "attributes": {
+        "hot": true,
+        "new": false
+    },
+    "flavortext": "",
+
     "ingredients": [
         {
             "header": "streusel",
@@ -183,9 +190,9 @@
     ],
     "pictures": [
         {
-            "src": "../images/bakyuri/lemon-blueberry-muffins/01.jpg",
+            "src": "",
             "alt": "🍋🫐🧁"
         }
     ],
-    "flavortext": "YOU CAN PUT CHEESE ON IT"
+    "content": "YOU CAN PUT CHEESE ON IT"
 }

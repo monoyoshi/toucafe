@@ -1,8 +1,3 @@
-#menulink::before {
-    content: "<";
-    padding-right: 1rem;
-}
-
 .hrheader {
     justify-content: center;
 }
@@ -25,14 +20,27 @@
     user-select: auto;
 }
 
-.step:hover {
+.step:hover, #menulink:hover {
     background: none;
 }
 
-.step:hover:active {
+.step:hover:active, #menulink:hover:active {
     background: none;
     box-shadow: none;
     transform: none;
+}
+
+#menulink::before {
+    content: "<";
+    padding-right: 1rem;
+}
+
+#menulink {
+    cursor: pointer;
+}
+
+#menulink:hover:active {
+    color: var(--a_strongpink);
 }
 
 .step.done {

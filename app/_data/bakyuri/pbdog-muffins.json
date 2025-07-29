@@ -1,6 +1,13 @@
 {
-    "title": "dog muffins",
-    "menu": "bakyuri",
+    "title": "pumpkin banana dog muffins",
+    "category": "muffins",
+    "version": "2024.10.18",
+    "attributes": {
+        "hot": false,
+        "new": false
+    },
+    "flavortext": "",
+
     "ingredients": [
         {
             "header": "",
@@ -91,9 +98,9 @@
     ],
     "pictures": [
         {
-            "src": "../images/bakyuri/dog-muffins/01.jpg",
+            "src": "",
             "alt": "🎃🍌🐶🧁"
         }
     ],
-    "flavortext": "woof"
+    "content": "woof"
 }

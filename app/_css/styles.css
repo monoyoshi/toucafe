@@ -149,6 +149,21 @@ a.button:hover:active {
     margin-right: 0;
 }
 
+button.camo {
+    display: block;
+    padding: 0;
+    background: none;
+    color: inherit;
+    font-size: inherit;
+    text-align: left;
+    text-wrap: wrap;
+    text-decoration: inherit;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    transition: none;
+}
+
 /* --------- */
 
 /* lists */

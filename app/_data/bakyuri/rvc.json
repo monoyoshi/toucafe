@@ -1,6 +1,13 @@
 {
     "title": "red velvet cookies",
-    "menu": "bakyuri",
+    "category": "cookies",
+    "version": "2025.01.17",
+    "attributes": {
+        "hot": false,
+        "new": false
+    },
+    "flavortext": "but what if it was <i>blue</i>?",
+
     "ingredients": [
         {
             "header": "",
@@ -135,9 +142,9 @@
     ],
     "pictures": [
         {
-            "src": "../images/bakyuri/red-velvet-cookies/01.jpg",
+            "src": "",
             "alt": "❤️🍰🍪"
         }
     ],
-    "flavortext": "but what if it was <i>blue</i>?"
+    "content": "but what if it was <i>blue</i>?"
 }

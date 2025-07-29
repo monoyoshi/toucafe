@@ -1,0 +1,66 @@
+{
+    "title": "melon juice",
+    "category": "juice",
+    "version": "2024.06.16",
+    "attributes": {
+        "hot": false,
+        "new": false
+    },
+    "flavortext": "",
+
+    "ingredients": [
+        {
+            "header": "",
+            "list": [
+                {
+                    "name": "1/2 cantaloupe",
+                    "notes": []
+                },
+                {
+                    "name": "3/4 pitcher's worth of water",
+                    "notes": []
+                },
+                {
+                    "name": "sugar",
+                    "notes": []
+                }
+            ]
+        }
+    ],
+    "equipment": [
+        {
+            "name": "cantaloupe scraper or fork",
+            "notes": []
+        },
+        {
+            "name": "large pitcher",
+            "notes": []
+        }
+    ],
+    "instructions": [
+        {
+            "header": "",
+            "list": [
+                {
+                    "base": "scrape cantaloupe using cantaloupe scraper/fork until satisfied into pitcher",
+                    "notes": []
+                },
+                {
+                    "base": "fill 3/4 pitcher with water",
+                    "notes": []
+                },
+                {
+                    "base": "mix in sugar to taste",
+                    "notes": []
+                }
+            ]
+        }
+    ],
+    "pictures": [
+        {
+            "src": "",
+            "alt": ""
+        }
+    ],
+    "content": ""
+}

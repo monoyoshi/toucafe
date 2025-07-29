@@ -68,7 +68,7 @@ function NavbarHeader() {
                     <Link href="/shop">shop</Link>
                 </div>
                 <div className="flexcenter">
-                    <Link href="https://bsky.app/profile/bladewyrm.dev" target="_blank" rel="noopener noreferrer">contact</Link>
+                    <Link href="https://twitter.com/bladewyrm" target="_blank" rel="noopener noreferrer">contact</Link>
                 </div>
                 <div className="flexcenter" id="burgerbox">
                     <button className="flexcenter" onClick={() => {toggleHBM()}}>
@@ -100,7 +100,7 @@ export default function RootLayout({ children }) {
             <article>
                 <main>{children}</main>
 
-                <HRBreak paddingtop="0" paddingbottom="0" />
+                <HRBreak />
 
                 <section id="articlefooter">
                     <Link href="https://bladewyrm.dev" target="_blank" rel="noopener noreferrer"><Image src="https://cdn.bladewyrm.dev/images/logo.svg" width={1536} height={640} alt="bladewyrm logo" style={{height: "64px"}} /></Link>

@@ -1,6 +1,13 @@
 {
     "title": "banana bread",
-    "menu": "bakyuri",
+    "category": "cakes",
+    "version": "2025.02.21",
+    "attributes": {
+        "hot": true,
+        "new": false
+    },
+    "flavortext": "it's banana. it's bread. it's banana bread.",
+
     "ingredients": [
         {
             "header": "",
@@ -116,9 +123,9 @@
     ],
     "pictures": [
         {
-            "src": "../images/bakyuri/banana-bread/03.jpg",
+            "src": "",
             "alt": "🍌🍞"
         }
     ],
-    "flavortext": "it's banana. it's bread. it's banana bread."
+    "content": "it's banana. it's bread. it's banana bread."
 }

@@ -1,0 +1,57 @@
+{
+    "title": "loaded pogtato soup",
+    "category": "soups",
+    "version": "0000.00.00",
+    "attributes": {
+        "hot": false,
+        "new": false
+    },
+    "flavortext": "",
+
+    "ingredients": [
+    ],
+    "equipment": [
+    ],
+    "instructions": [
+        {
+            "header": "",
+            "list": [
+                {
+                    "base": "cook sliced bacon in a pot",
+                    "notes": []
+                },
+                {
+                    "base": "remove bacon from pot, sauté 3-4 cloves of minced garlic and half an onion, chopped",
+                    "notes": []
+                },
+                {
+                    "base": "add in 1/4 cup (4 tbsp) butter and melt",
+                    "notes": []
+                },
+                {
+                    "base": "mix in 1/4 cup flour",
+                    "notes": []
+                },
+                {
+                    "base": "add in 4 cups chicken broth, 1 cup heavy whipping cream, 1 and 1/2 cups milk, 1/2 cup sour cream, and salt and pepper",
+                    "notes": []
+                },
+                {
+                    "base": "add in 3 lb potatoes, skinned and chopped",
+                    "notes": []
+                },
+                {
+                    "base": "bring to a boil, then lower the heat and simmer until your desired consistency (~ 40 minutes; optional: lightly purée the mixture with an immersion blender for a creamier soup)",
+                    "notes": []
+                }
+            ]
+        }
+    ],
+    "pictures": [
+        {
+            "src": "",
+            "alt": ""
+        }
+    ],
+    "content": ""
+}

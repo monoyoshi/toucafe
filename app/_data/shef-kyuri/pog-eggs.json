@@ -1,0 +1,53 @@
+{
+    "title": "pog eggs",
+    "category": "breakfast",
+    "version": "2025.05.28",
+    "attributes": {
+        "hot": false,
+        "new": false
+    },
+    "flavortext": "",
+
+    "ingredients": [
+    ],
+    "equipment": [
+    ],
+    "instructions": [
+        {
+            "header": "",
+            "list": [
+                {
+                    "base": "whisk eggs",
+                    "notes": []
+                },
+                {
+                    "base": "add milk and cottage cheese",
+                    "notes": []
+                },
+                {
+                    "base": "season with salt, pepper, and paprika",
+                    "notes": []
+                },
+                {
+                    "base": "oil a pan, heat it up, and put the eggs in",
+                    "notes": []
+                },
+                {
+                    "base": "scramble the eggs until it's mostly solid",
+                    "notes": []
+                },
+                {
+                    "base": "top with parsley",
+                    "notes": []
+                }
+            ]
+        }
+    ],
+    "pictures": [
+        {
+            "src": "",
+            "alt": ""
+        }
+    ],
+    "content": ""
+}

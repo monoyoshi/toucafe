@@ -1,6 +1,13 @@
 {
     "title": "pandesal",
-    "menu": "bakyuri",
+    "category": "bread",
+    "version": "2025.05.28",
+    "attributes": {
+        "hot": false,
+        "new": true
+    },
+    "flavortext": "BREAD :D",
+
     "ingredients": [
         {
             "header": "yeast",
@@ -179,9 +186,9 @@
     ],
     "pictures": [
         {
-            "src": "../images/bakyuri/banana-bread/03.jpg",
+            "src": "",
             "alt": "🇵🇭🍞"
         }
     ],
-    "flavortext": "<div class=\"row center\"><div class=\"column-45\" style=\"text-align: left;\"><p>> be me</p><p>> one chance at life</p><p>> make bread (filipino)</p></div></div>"
+    "content": "<div class=\"row center\"><div class=\"column-45\" style=\"text-align: left;\"><p>> be me</p><p>> one chance at life</p><p>> make bread (filipino)</p></div></div>"
 }

@@ -1,0 +1,112 @@
+{
+    "title": "egg sando",
+    "category": "sandwiches",
+    "version": "2025.07.22",
+    "attributes": {
+        "hot": false,
+        "new": true
+    },
+    "flavortext": "",
+
+    "ingredients": [
+        {
+            "header": "egg",
+            "list": [
+                {
+                    "name": "~5 eggs",
+                    "notes": []
+                },
+                {
+                    "name": "~1/4 teaspoon sugar",
+                    "notes": []
+                },
+                {
+                    "name": "seasoning to taste",
+                    "notes": ["~1/4 teaspoon salt", "~1/8 teaspoon black pepper", "~1/4 teaspoon red pepper flakes"]
+                },
+                {
+                    "name": "2 teaspoon milk",
+                    "notes": []
+                },
+                {
+                    "name": "~2 tablespoon japanese mayonnaise",
+                    "notes": []
+                }
+            ]
+        },
+        {
+            "header": "sando",
+            "list": [
+                {
+                    "name": "2 slices japanese milk bread",
+                    "notes": ["recipe <a href=\"/bakyuri/legendary-jpn-milk-bread\" target=\"_blank\" rel=\"noopener noreferrer\">here</a>"]
+                }
+            ]
+        }
+    ],
+    "equipment": [
+    ],
+    "instructions": [
+        {
+            "header": "egg",
+            "list": [
+                {
+                    "base": "boil ~2 eggs for ~12 minutes on a stove over medium-high heat",
+                    "notes": []
+                },
+                {
+                    "base": "cool eggs in cold water for ~2 minutes",
+                    "notes": []
+                },
+                {
+                    "base": "drain water and peel eggs",
+                    "notes": []
+                },
+                {
+                    "base": "transfer eggs to bowl and mash to preferred texture",
+                    "notes": []
+                },
+                {
+                    "base": "mix in ~1/4 teaspoon sugar and ~1/4 teaspoon salt",
+                    "notes": []
+                },
+                {
+                    "base": "mix in ~1/8 teaspoon black pepper, ~1/4 teaspoon red pepper flakes, and 2 teaspoon milk",
+                    "notes": []
+                },
+                {
+                    "base": "mix in ~2 tablespoon japanese mayonnaise",
+                    "notes": []
+                }
+            ]
+        },
+        {
+            "header": "sando",
+            "list": [
+                {
+                    "base": "butter 2 slices of japanese milk bread",
+                    "notes": []
+                },
+                {
+                    "base": "spread egg mixture on 1 slice",
+                    "notes": []
+                },
+                {
+                    "base": "assemble sandwich and compress lightly with two plates for ~5 minutes",
+                    "notes": []
+                },
+                {
+                    "base": "cut crusts off sandwich",
+                    "notes": []
+                }
+            ]
+        }
+    ],
+    "pictures": [
+        {
+            "src": "",
+            "alt": ""
+        }
+    ],
+    "content": ""
+}
